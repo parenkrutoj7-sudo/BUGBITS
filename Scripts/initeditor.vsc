@@ -1,0 +1,16 @@
+root
+> Interface
+	> ConsoleView
+		colors FFFFFFFF FFFFFFFF
+		fontsize 24 32
+		<
+	<
+
+
+
+
+
+
+
+
+

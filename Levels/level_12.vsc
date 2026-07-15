@@ -1,0 +1,54 @@
+sp World world_02
+sp NameText LEVELNAME_12
+sp Objective LEVELOBJ_SURVIVE6
+sp Description LEVELDESC_12
+sp WinText LEVELWIN_12
+sp LoseText LEVELLOSE_12
+sp IsReversed 0
+UnlockLevel level_11
+UnlockLevel rescue_07
+sp MapX 632
+sp MapY 606
+sp Type defense
+sp DefenseTime 360
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 25
+sp NectarOnPaths 16
+BugSetup 0 ant 10
+BugSetup 0 militant 40
+BugSetup 0 bee 10
+BugSetup 0 wildbee 40
+BugSetup 1 waterbeetle 100
+BugSetup 2 stagbeetle 50
+BugSetup 2 caterpillar 30
+BugSetup 2 wasp 20
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 0 3
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 1 2
+SetLanes 1 3
+SetLanes 2 0
+SetLanes 2 1
+SetLanes 2 2
+SetLanes 2 3
+Script "sendenemy waterbeetle 0 null 0"
+Script "sendenemy waterbeetle 1 null 0"
+Script "sendenemy waterbeetle 2 D_12_QUICK 5"
+Script "sendenemy waterbeetle 3 null 0"
+Script "sp AirDefenseLevel 3"
+Script "wait 15"
+Script "setflow 1 3 30 35"
+Script "wait 45"
+Script "setflow 0 10 40 60"
+Script "wait 120"
+Script "setflow 2 10 20 40"
+Script "setflow 0 10 40 20"
+Script "wait 90"
+Script "setflow 1 2 20 25"
+Script "setlight 90 ff406080 20404080 ffa0a0ff 0.2 0 0 0 100"
+sp Music grass
+setlight 0 ffc0c0ff 20202020 ffffffff 1 40 0 -110 300

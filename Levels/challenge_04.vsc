@@ -1,0 +1,56 @@
+sp World world_09
+sp NameText LEVELNAME_C04
+sp Objective LEVELOBJ_SURVIVELONG
+sp Description LEVELDESC_C04
+sp IsReversed 0
+UnlockLevel level_21
+sp MapX 978
+sp MapY 837
+sp Type challenge
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 50
+sp NectarOnPaths 25
+BugSetup 0 wasp 50
+BugSetup 0 caterpillar 50
+BugSetup 1 bomberbee 100
+BugSetup 2 poisonpillar 100
+BugSetup 3 wasphero 100
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 2 0
+SetLanes 2 1
+SetLanes 3 0
+SetLanes 3 1
+Script "wait 5"
+Script "sp AirDefenseLevel 0"
+Script "sendenemy wasp 0 null 0"
+Script "sendenemy wasp 1 null 0"
+Script "wait 25"
+Script "sendenemy caterpillar 0 null 0"
+Script "sendenemy caterpillar 1 null 0"
+Script "wait 5"
+Script "sendenemy wasp 0 null 0"
+Script "sendenemy wasp 1 null 0"
+Script "wait 25"
+Script "setflow 0 5 20 30"
+Script "wait 120"
+Script "setflow 1 30 30 0"
+Script "wait 120"
+Script "setflow 1 10 20 30"
+Script "setflow 2 40 40 0"
+Script "wait 120"
+Script "setflow 1 3 6 30"
+Script "setflow 2 30 30 0"
+Script "wait 120"
+Script "setflow 0 0 0 0"
+Script "setflow 1 0 0 0"
+Script "setflow 2 20 20 0"
+Script "setflow 3 30 30 0"
+Script "wait 120"
+Script "setflow 2 10 10 0"
+Script "setflow 3 5 10 20"
+sp Music mushrooms
+setlight 0 ffc0c0ff 20202020 ffffffffff 1 40 0 160 230

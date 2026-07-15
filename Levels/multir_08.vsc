@@ -1,0 +1,17 @@
+sp World world_08
+sp NameText LEVELNAME_M08
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_MR
+sp IsReversed 0
+UnlockLevel level_13
+UnlockLevel rescue_06
+sp MapX 1480
+sp MapY 506
+sp Type multirandom
+sp DefenseTime 600
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 30
+sp NectarOnPaths 0
+sp Music mushrooms
+setlight 0 ff408090 20202020 ffffffff 1 25 0 200 250

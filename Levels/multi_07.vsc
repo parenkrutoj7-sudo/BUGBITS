@@ -1,0 +1,16 @@
+sp World world_09
+sp NameText LEVELNAME_M07
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_M
+sp IsReversed 0
+UnlockLevel level_05
+sp MapX 882
+sp MapY 725
+sp Type multibattle
+sp DefenseTime 600
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 30
+sp NectarOnPaths 10
+sp Music mushrooms
+setlight 0 ff408090 20202020 ffffffff 1 25 0 200 250

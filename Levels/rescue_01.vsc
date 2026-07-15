@@ -1,0 +1,42 @@
+sp World world_01
+sp NameText LEVELNAME_R01
+sp Objective LEVELOBJ_R01
+sp ObjectiveHint LEVELOBJ_R01B
+sp Description LEVELDESC_R01
+sp WinText LEVELWIN_R01
+sp LoseText LEVELLOSE_R01
+sp IsReversed 0
+UnlockLevel level_01
+sp MapX 239
+sp MapY 846
+sp Type rescue
+sp RescueBug militant
+sp DefenseTime 600
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 12
+sp NectarOnPaths 8
+sp TravelDistance 16
+BugSetup 0 ant 8
+BugSetup 1 littlebeetle 6
+BugSetup 2 nectarbonus 6
+BugSetup 3 trapped 1
+SetLanes 0 0
+SetLanes 0 2
+SetLanes 1 1
+SetLanes 2 0
+SetLanes 2 2
+SetLanes 3 1
+Script "addhint HINT_GUARDS"
+Script "wait 10"
+Script "addhint HINT_RESCUE_MILITANT"
+Script "wait 10"
+Script "addhint HINT_RESCUE_LATER" 
+Script "wait 10"
+Script "addhint HINT_RMB"
+Script "addhint HINT_RESCUE_COLLECT" 
+Script "sethintfreq 30"
+Script "wait 390"
+Script "setlight 60 ffc0c0ff 20202020 ffffffff 1 40 0 -30 200"
+sp Music rescue
+setlight 0 ff404080 20404080 ffffffff 0.2 130 0 0 180

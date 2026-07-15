@@ -1,0 +1,39 @@
+sp World world_06
+sp NameText LEVELNAME_R11
+sp Objective LEVELOBJ_R11
+sp ObjectiveHint LEVELOBJ_R11B
+sp Description LEVELDESC_R11
+sp WinText LEVELWIN_R11
+sp LoseText LEVELLOSE_R11
+sp IsReversed 0
+UnlockLevel level_14
+sp MapX 1164
+sp MapY 230
+sp Type rescue
+sp RescueBug bigbangbug
+sp DefenseTime 480
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 30
+sp NectarOnPaths 16
+sp TravelDistance 16
+BugSetup 0 wasp 4
+BugSetup 0 waterbeetle 6
+BugSetup 0 caterpillar 2
+BugSetup 0 bigbangbug 4
+BugSetup 0 stagbeetle 2
+BugSetup 1 giantwaterbeetle 4
+BugSetup 1 trapped 1
+BugSetup 2 nectarbonus 15
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 1 0
+SetLanes 2 1
+Script "addhint HINT_RMB"
+Script "addhint HINT_GUARDS"
+Script "addhint HINT_RESCUE_COLLECT" 
+Script "sethintfreq 60"
+Script "wait 420"
+Script "setlight 60 ff908060 20202020 ffffffff 0.85 30 0 90 150"
+sp Music rescue
+setlight 0 ff202040 20404080 ffffffff 0.2 130 0 0 100

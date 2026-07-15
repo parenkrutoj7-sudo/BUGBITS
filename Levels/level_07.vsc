@@ -1,0 +1,43 @@
+sp World world_03
+sp NameText LEVELNAME_07
+sp Objective LEVELOBJ_SURVIVE6
+sp Description LEVELDESC_07
+sp WinText LEVELWIN_07
+sp LoseText LEVELLOSE_07
+sp IsReversed 0
+UnlockLevel level_06
+sp MapX 284
+sp MapY 164
+sp Type defense
+sp DefenseTime 360
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 25
+sp NectarOnPaths 0
+BugSetup 0 waterbeetle 90
+BugSetup 0 wildbee 10
+BugSetup 1 littlebeetle 50
+BugSetup 1 rhinobeetle 30
+BugSetup 1 militant 20
+SetLanes 0 0
+SetLanes 1 1
+Script "sendenemy waterbeetle 0 D_07_LAKE 10.3"
+Script "wait 15"
+Script "sp AirDefenseLevel 2"
+Script "addhint HINT_LILY"
+Script "sethintfreq 30"
+Script "setflow 0 10 20 20"
+Script "setflow 1 10 20 20"
+Script "wait 45"
+Script "setflow 0 10 30 25"
+Script "setflow 1 10 30 25"
+Script "wait 120"
+Script "sethintfreq 60"
+Script "setflow 0 7 30 20"
+Script "setflow 1 10 30 20"
+Script "wait 150"
+Script "setflow 0 6 30 10"
+Script "setflow 1 10 40 10"
+Script "setlight 90 ff404080 20404080 ffa0a0ff 0.2 0 0 0 100"
+sp Music grass
+setlight 0 ff80a0c0 20202020 ffffffff 1 40 0 80 200

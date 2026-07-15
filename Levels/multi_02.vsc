@@ -1,0 +1,16 @@
+sp World world_02
+sp NameText LEVELNAME_M02
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_M
+sp IsReversed 0
+UnlockLevel level_02
+sp MapX 472
+sp MapY 550
+sp Type multibattle
+sp DefenseTime 600
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 20
+sp NectarOnPaths 8
+sp Music grass
+setlight 0 ffc0c0ff 20242420 ffffffff 1 40 0 -30 300

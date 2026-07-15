@@ -1,0 +1,33 @@
+sp World world_09
+sp NameText LEVELNAME_05
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_05
+sp WinText LEVELWIN_05
+sp LoseText LEVELLOSE_05
+sp IsReversed 0
+UnlockLevel level_04
+sp MapX 850
+sp MapY 725
+sp Type battle
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 15
+sp NectarOnPaths 10
+BugSetup 0 militant 100
+BugSetup 1 littlebeetle 100
+BugSetup 2 wildbee 100
+SetLanes 0 0
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 2 0
+SetLanes 2 1
+Script "sendenemy wildbee 0 D_NONE 5"
+Script "wait 10"
+Script "setflow 0 10 20 40"
+Script "wait 40"
+Script "setflow 2 120 240 180"
+Script "setflow 1 10 20 35"
+Script "wait 120"
+Script "setflow 1 10 20 20"
+sp Music mushrooms
+setlight 0 ff404030 20202020 ffffffffff 1 30 0 -30 200

@@ -1,0 +1,16 @@
+sp World world_06
+sp NameText LEVELNAME_M06
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_M
+sp IsReversed 0
+UnlockLevel level_16
+sp MapX 1232
+sp MapY 174
+sp Type multibattle
+sp DefenseTime 600
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 30
+sp NectarOnPaths 0
+sp Music desert
+setlight 0 ff908060 20242020 ffffffff 1 30 0 -45 230

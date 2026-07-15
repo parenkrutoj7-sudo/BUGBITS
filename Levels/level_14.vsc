@@ -1,0 +1,48 @@
+sp World world_03
+sp NameText LEVELNAME_14
+sp Objective LEVELOBJ_GATHER60B
+sp Description LEVELDESC_14
+sp WinText LEVELWIN_14
+sp LoseText LEVELLOSE_14
+sp IsReversed 1
+UnlockLevel level_12
+UnlockLevel rescue_08
+sp MapX 412
+sp MapY 164
+sp Type gather
+sp GoalNectar 60
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 5
+sp NectarOnPaths 0
+BugSetup 0 militant 30
+BugSetup 0 bee 25
+BugSetup 0 wildbee 40
+BugSetup 0 wasp 5
+BugSetup 1 stinkbug 75
+BugSetup 1 caterpillar 25
+BugSetup 2 waterbeetle 90
+BugSetup 2 giantwaterbeetle 10
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 2 0
+Script "sp AirDefenseLevel 3"
+Script "wait 60"
+Script "setflow 0 20 40 60"
+Script "addhint HINT_LILY"
+Script "sethintfreq 60"
+Script "wait 30"
+Script "setflow 1 10 20 60"
+Script "setflow 2 10 20 60"
+Script "wait 120"
+Script "setflow 1 10 30 60"
+Script "setflow 2 10 30 60"
+Script "setflow 0 20 40 40"
+Script "wait 240"
+Script "setflow 1 10 30 30"
+Script "setflow 2 10 30 30"
+Script "setflow 0 20 40 20"
+sp Music grass
+setlight 0 ffc090a0 20222020 ffffffff 1 25 0 -10 200

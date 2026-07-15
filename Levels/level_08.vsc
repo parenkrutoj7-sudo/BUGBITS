@@ -1,0 +1,40 @@
+sp World world_04
+sp NameText LEVELNAME_08
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_08
+sp WinText LEVELWIN_08
+sp LoseText LEVELLOSE_08
+sp IsReversed 1
+UnlockLevel level_07
+sp MapX 882
+sp MapY 126
+sp Type battle
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 12
+sp NectarOnPaths 0
+BugSetup 0 ant 10
+BugSetup 0 militant 50
+BugSetup 0 wildbee 20
+BugSetup 0 bee 20
+BugSetup 1 stinkbug 48
+BugSetup 1 littlebeetle 47
+BugSetup 1 wasp 5
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 1 2
+SetLanes 1 3
+Script "sendenemy wasp 2 D_NONE 6"
+Script "wait 5"
+Script "sp AirDefenseLevel 2"
+Script "setflow 0 20 40 60"
+Script "wait 25"
+Script "setflow 1 10 20 20"
+Script "wait 60"
+Script "setflow 1 10 20 15"
+Script "wait 120"
+Script "setflow 1 8 24 10"
+sp Music desert
+setlight 0 ff806040 20242420 ffffffff 1.1 45 0 80 150

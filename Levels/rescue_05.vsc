@@ -1,0 +1,39 @@
+sp World world_04
+sp NameText LEVELNAME_R05
+sp Objective LEVELOBJ_R05
+sp ObjectiveHint LEVELOBJ_R05B
+sp Description LEVELDESC_R05
+sp WinText LEVELWIN_R05
+sp LoseText LEVELLOSE_R05
+sp IsReversed 1
+UnlockLevel level_07
+sp MapX 818
+sp MapY 70
+sp Type rescue
+sp RescueBug waterbeetle
+sp DefenseTime 480
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 16
+sp NectarOnPaths 12
+sp TravelDistance 20
+BugSetup 0 rhinobeetle 10
+BugSetup 1 stinkbug 5
+BugSetup 1 trapped 1
+BugSetup 2 nectarbonus 15
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 0 3
+SetLanes 1 1
+SetLanes 2 0
+SetLanes 2 2
+SetLanes 2 3
+Script "addhint HINT_RMB"
+Script "addhint HINT_GUARDS"
+Script "addhint HINT_RESCUE_COLLECT" 
+Script "sethintfreq 60"
+Script "wait 420"
+Script "setlight 60 ff403020 20202020 ffffffff 1 40 0 -30 150"
+sp Music rescue
+setlight 0 ff202040 20404080 ffffffff 0.2 130 0 0 130

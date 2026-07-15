@@ -1,0 +1,44 @@
+sp World world_08
+sp NameText LEVELNAME_13
+sp Objective LEVELOBJ_GATHER100
+sp Description LEVELDESC_13
+sp WinText LEVELWIN_13
+sp LoseText LEVELLOSE_13
+sp IsReversed 0
+UnlockLevel level_12
+UnlockLevel rescue_08
+sp MapX 1352
+sp MapY 506
+sp Type gather
+sp GoalNectar 100
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 5
+sp NectarOnPaths 0
+BugSetup 0 militant 10
+BugSetup 0 bee 40
+BugSetup 0 wildbee 50
+BugSetup 1 waterbeetle 55
+BugSetup 1 stinkbug 30
+BugSetup 1 caterpillar 10
+BugSetup 1 stagbeetle 5
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 1 2
+Script "sendenemy caterpillar 1 D_NONE 8"
+Script "sp AirDefenseLevel 3"
+Script "wait 60"
+Script "setflow 0 20 40 60"
+Script "wait 30"
+Script "setflow 1 10 20 40"
+Script "wait 120"
+Script "setflow 1 10 30 40"
+Script "setflow 0 20 40 40"
+Script "wait 300"
+Script "setflow 1 10 30 20"
+Script "setflow 0 20 40 20"
+sp Music mushrooms
+setlight 0 ff408090 20202020 ffffffff 1 25 0 200 250

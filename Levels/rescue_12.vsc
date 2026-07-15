@@ -1,0 +1,39 @@
+sp World world_05
+sp NameText LEVELNAME_R12
+sp Objective LEVELOBJ_R12
+sp ObjectiveHint LEVELOBJ_R12B
+sp Description LEVELDESC_R12
+sp WinText LEVELWIN_R12
+sp LoseText LEVELLOSE_R12
+sp IsReversed 0
+UnlockLevel level_16
+sp MapX 980
+sp MapY 454
+sp Type rescue
+sp RescueBug spider
+sp DefenseTime 360
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 30
+sp NectarOnPaths 16
+sp TravelDistance 20
+BugSetup 0 caterpillar 1
+BugSetup 0 spider 6
+BugSetup 0 wasp 5
+BugSetup 1 spider 2
+BugSetup 1 trapped 1
+BugSetup 2 nectarbonus 20
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 1 0
+SetLanes 2 1
+SetLanes 2 2
+Script "addhint HINT_RMB"
+Script "addhint HINT_GUARDS"
+Script "addhint HINT_RESCUE_COLLECT" 
+Script "sethintfreq 60"
+Script "wait 300"
+Script "setlight 60 ff908060 20242420 ffffffff 0.85 60 0 30 230"
+sp Music rescue
+setlight 0 ff202040 20404080 ffffffff 0.2 130 0 0 180

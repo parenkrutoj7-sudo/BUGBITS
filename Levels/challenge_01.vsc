@@ -1,0 +1,78 @@
+sp World world_02
+sp NameText LEVELNAME_C01
+sp Objective LEVELOBJ_SURVIVELONG
+sp Description LEVELDESC_C01
+sp IsReversed 0
+UnlockLevel level_06
+sp MapX 568
+sp MapY 662
+sp Type challenge
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 50
+sp NectarOnPaths 25
+BugSetup 0 littlebeetle 100
+BugSetup 1 rhinobeetle 100
+BugSetup 2 stagbeetle 100
+BugSetup 3 beetlehero 100
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 0 3
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 1 2
+SetLanes 1 3
+SetLanes 2 0
+SetLanes 2 1
+SetLanes 2 2
+SetLanes 2 3
+SetLanes 3 0
+SetLanes 3 1
+SetLanes 3 2
+SetLanes 3 3
+Script "wait 5"
+Script "sendenemy littlebeetle 0 null 0"
+Script "sendenemy littlebeetle 1 null 0"
+Script "sendenemy littlebeetle 2 null 0"
+Script "sendenemy littlebeetle 3 null 0"
+Script "wait 25"
+Script "sendenemy littlebeetle 0 null 0"
+Script "sendenemy littlebeetle 1 null 0"
+Script "sendenemy littlebeetle 2 null 0"
+Script "sendenemy littlebeetle 3 null 0"
+Script "wait 5"
+Script "sendenemy littlebeetle 0 null 0"
+Script "sendenemy littlebeetle 1 null 0"
+Script "sendenemy littlebeetle 2 null 0"
+Script "sendenemy littlebeetle 3 null 0"
+Script "sp AirDefenseLevel 2"
+Script "wait 25"
+Script "setflow 0 3 24 20"
+Script "wait 60"
+Script "setflow 0 3 15 10"
+Script "setflow 1 8 32 30"
+Script "sp AirDefenseLevel 3"
+Script "wait 120"
+Script "setflow 0 5 10 40"
+Script "setflow 1 4 24 12"
+Script "setflow 2 10 30 30"
+Script "sp AirDefenseLevel 4"
+Script "wait 120"
+Script "setflow 0 0 0 0"
+Script "setflow 1 10 20 30"
+Script "setflow 2 10 40 30"
+Script "setflow 3 10 20 30"
+Script "sp AirDefenseLevel 5"
+Script "wait 120"
+Script "setflow 1 0 0 0"
+Script "setflow 2 6 36 30"
+Script "setflow 3 10 30 30"
+Script "sp AirDefenseLevel 6"
+Script "wait 120"
+Script "setflow 1 0 0 0"
+Script "setflow 2 6 12 0"
+Script "setflow 3 10 20 0"
+Script "sp AirDefenseLevel 7"
+sp Music grass
+setlight 0 ffc0c0ff 20202020 ffffffff 1 40 0 30 300

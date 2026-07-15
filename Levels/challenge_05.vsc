@@ -1,0 +1,52 @@
+sp World world_05
+sp NameText LEVELNAME_C05
+sp Objective LEVELOBJ_SURVIVELONG
+sp Description LEVELDESC_C05
+sp IsReversed 0
+UnlockLevel level_20
+sp MapX 1108
+sp MapY 454
+sp Type challenge
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 50
+sp NectarOnPaths 25
+BugSetup 0 bigbangbug 100
+BugSetup 1 spider 100
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 1 2
+Script "wait 5"
+Script "sendenemy spider 0 null 0"
+Script "sendenemy spider 1 null 0"
+Script "sendenemy spider 2 null 0"
+Script "wait 25"
+Script "sendenemy bigbangbug 0 null 0"
+Script "sendenemy bigbangbug 1 null 0"
+Script "sendenemy bigbangbug 2 null 0"
+Script "wait 30"
+Script "sp AirDefenseLevel 2"
+Script "setflow 1 30 30 0"
+Script "wait 120"
+Script "setflow 0 35 35 0"
+Script "wait 120"
+Script "setflow 0 20 20 0"
+Script "setflow 1 25 25 0"
+Script "sp AirDefenseLevel 4"
+Script "wait 120"
+Script "setflow 0 15 15 0"
+Script "setflow 1 20 20 0"
+Script "sp AirDefenseLevel 5"
+Script "wait 120"
+Script "setflow 0 10 10 0"
+Script "setflow 1 15 15 0"
+Script "sp AirDefenseLevel 6"
+Script "wait 120"
+Script "setflow 0 5 5 0"
+Script "setflow 1 7 7 0"
+Script "sp AirDefenseLevel 7"
+sp Music desert
+setlight 0 ff908060 20242020 ffffffff 1 30 0 -45 230

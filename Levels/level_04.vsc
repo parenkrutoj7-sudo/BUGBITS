@@ -1,0 +1,36 @@
+sp World world_01
+sp NameText LEVELNAME_04
+sp Objective LEVELOBJ_SURVIVE5
+sp Description LEVELDESC_04
+sp WinText LEVELWIN_04
+sp LoseText LEVELLOSE_04
+sp IsReversed 0
+UnlockLevel level_03
+UnlockLevel rescue_02
+sp MapX 303
+sp MapY 790
+sp Type defense
+sp DefenseTime 300
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 15
+sp NectarOnPaths 0
+BugSetup 0 ant 10
+BugSetup 0 bee 5
+BugSetup 0 littlebeetle 50
+BugSetup 0 stinkbug 35
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+Script "sendenemy rhinobeetle 1 D_04_ENOUGH 8"
+Script "wait 5"
+Script "wait 5"
+Script "sendplayer stinkbug 1 D_04_OH 4"
+Script "wait 10"
+Script "setflow 0 10 20 20"
+Script "wait 30"
+Script "setflow 0 5 25 20"
+Script "wait 190"
+Script "setlight 60 ff404080 20404080 ffa0a0ff 0.2 0 0 0 130"
+sp Music grass
+setlight 0 ffc0c0ff 20242420 ffffc0a0 1 30 0 110 220

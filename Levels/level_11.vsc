@@ -1,0 +1,41 @@
+sp World world_01
+sp NameText LEVELNAME_11
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_11
+sp WinText LEVELWIN_11
+sp LoseText LEVELLOSE_11
+sp IsReversed 1
+UnlockLevel level_10
+sp MapX 431
+sp MapY 790
+sp Type battle
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 10
+sp NectarOnPaths 10
+BugSetup 0 ant 10
+BugSetup 0 militant 40
+BugSetup 0 bee 10
+BugSetup 0 wildbee 40
+BugSetup 1 stagbeetle 25
+BugSetup 1 wasp 20
+BugSetup 1 caterpillar 10
+BugSetup 1 stinkbug 30
+BugSetup 1 waterbeetle 15
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 1 2
+Script "sendenemy tick 1 D_11_INF 6"
+Script "sp AirDefenseLevel 3"
+Script "wait 30"
+Script "sendenemy beetlehero 1 null 0"
+Script "setflow 0 20 40 40"
+Script "wait 90"
+Script "setflow 1 5 20 30"
+Script "wait 150"
+Script "setflow 1 5 20 20"
+sp Music grass
+setlight 0 ffff6060 20202020 ffffffff 1 25 0 60 180

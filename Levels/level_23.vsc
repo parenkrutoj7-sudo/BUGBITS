@@ -1,0 +1,52 @@
+sp World world_08
+sp NameText LEVELNAME_23
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_23
+sp WinText LEVELWIN_23
+sp LoseText LEVELLOSE_23
+sp IsReversed 0
+UnlockLevel level_22
+UnlockLevel rescue_13
+sp MapX 1480
+sp MapY 506
+sp Type battle
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 30
+sp NectarOnPaths 0
+BugSetup 0 bee 10
+BugSetup 0 wildbee 20 
+BugSetup 0 militant 70
+BugSetup 1 bigbangbug 5
+BugSetup 1 caterpillar 7
+BugSetup 1 poisonpillar 3
+BugSetup 1 waterbeetle 30
+BugSetup 1 giantwaterbeetle 10
+BugSetup 1 bomberbee 10
+BugSetup 1 spider 10
+BugSetup 1 toxicbug 10
+BugSetup 1 stinkbug 10
+BugSetup 1 stagbeetle 5
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 1 2
+Script "sendenemy waterbeetle 0 null 0"
+Script "sendenemy waterbeetle 2 null 0"
+Script "sendenemy spider 1 D_NONE 5"
+Script "setflow 0 20 40 40"
+Script "sp AirDefenseLevel 6"
+Script "wait 60"
+Script "setflow 1 10 20 35"
+Script "wait 60"
+Script "setflow 1 10 20 30"
+Script "wait 60"
+Script "setflow 1 10 30 25"
+Script "wait 60"
+Script "setflow 1 10 30 20"
+Script "wait 60"
+Script "setflow 1 10 30 15"
+sp Music mushrooms
+setlight 0 ff408090 20202020 ffffffff 1 25 0 200 250

@@ -1,0 +1,44 @@
+sp World world_07
+sp NameText LEVELNAME_22
+sp Objective LEVELOBJ_SURVIVE12
+sp Description LEVELDESC_22
+sp WinText LEVELWIN_22
+sp LoseText LEVELLOSE_22
+sp IsReversed 1
+UnlockLevel level_21
+UnlockLevel rescue_12
+sp MapX 1308
+sp MapY 871
+sp Type defense
+sp DefenseTime 720
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 50
+sp NectarOnPaths 20
+BugSetup 1 stagbeetle 12
+BugSetup 1 poisonpillar 5
+BugSetup 1 toxicbug 50
+BugSetup 1 bomberbee 15
+BugSetup 1 wasp 15
+BugSetup 1 beetlehero 3
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 1 2
+Script "sp AirDefenseLevel 5"
+Script "sendenemy beetlehero 0 null 0"
+Script "sendenemy poisonpillar 1 D_NONE 8"
+Script "sendenemy beetlehero 2 null 0"
+Script "setflow 1 5 15 45"
+Script "wait 120"
+Script "setflow 1 5 15 40"
+Script "wait 120"
+Script "setflow 1 5 20 40"
+Script "wait 120"
+Script "setflow 1 4 20 35"
+Script "wait 120"
+Script "setflow 1 4 24 30"
+Script "wait 120"
+Script "setflow 1 4 24 20"
+Script "setlight 120 ff202060 20202040 ffa0a0ff 0.2 0 0 0 200"
+sp Music mushrooms
+setlight 0 ff282010 20202020 ffffffff 1 30 0 -10 200

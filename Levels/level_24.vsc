@@ -1,0 +1,54 @@
+sp World world_07
+sp NameText LEVELNAME_24
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_24
+sp WinText LEVELWIN_24
+sp LoseText LEVELLOSE_24
+sp IsReversed 0
+UnlockLevel level_23
+UnlockLevel rescue_14
+sp MapX 1436
+sp MapY 871
+sp Type battle
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 50
+sp NectarOnPaths 0
+BugSetup 0 bee 10
+BugSetup 0 wildbee 40 
+BugSetup 0 militant 50
+BugSetup 1 bigbangbug 5
+BugSetup 1 caterpillar 5
+BugSetup 1 poisonpillar 10
+BugSetup 1 bomberbee 10
+BugSetup 1 spider 10
+BugSetup 1 toxicbug 10
+BugSetup 1 stinkbug 10
+BugSetup 1 stagbeetle 10
+BugSetup 1 rhinobeetle 10
+BugSetup 1 littlebeetle 10
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 1 2
+Script "sendenemy tick 1 D_24_HIVE 11"
+Script "wait 30"
+Script "sendenemy toxichero 0 null 0"
+Script "sendenemy toxichero 2 null 0"
+Script "sendenemy wasphero 1 null 0"
+Script "setflow 0 20 40 40"
+Script "sp AirDefenseLevel 7"
+Script "wait 60"
+Script "setflow 1 10 20 40"
+Script "wait 60"
+Script "setflow 1 10 20 35"
+Script "wait 60"
+Script "setflow 1 10 30 30"
+Script "wait 60"
+Script "setflow 1 10 30 25"
+Script "wait 60"
+Script "setflow 1 10 30 20"
+sp Music mushrooms
+setlight 0 ff702020 20202020 ffffffff 1 20 0 60 250

@@ -1,0 +1,41 @@
+sp World world_06
+sp NameText LEVELNAME_18
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_18
+sp WinText LEVELWIN_18
+sp LoseText LEVELLOSE_18
+sp IsReversed 0
+UnlockLevel level_15
+UnlockLevel level_16
+UnlockLevel level_17
+UnlockLevel rescue_10
+sp MapX 1292
+sp MapY 230
+sp Type battle
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 20
+sp NectarOnPaths 0
+BugSetup 0 wildbee 50
+BugSetup 0 militant 50
+BugSetup 1 littlebeetle 30
+BugSetup 1 stagbeetle 20
+BugSetup 1 stinkbug 30
+BugSetup 1 toxicbug 20
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 1 0
+SetLanes 1 1
+Script "sendenemy tick 1 D_18_YOU 7"
+Script "wait 30"
+Script "sendenemy toxichero 1 null 0"
+Script "wait 30"
+Script "sp AirDefenseLevel 4"
+Script "setflow 0 20 40 60"
+Script "setflow 1 8 24 30"
+Script "wait 120"
+Script "setflow 1 5 15 30"
+Script "wait 240"
+Script "setflow 1 5 20 30"
+sp Music desert
+setlight 0 ffa04030 20202020 ffffffff 0.75 25 0 110 160

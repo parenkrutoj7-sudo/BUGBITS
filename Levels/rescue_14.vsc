@@ -1,0 +1,39 @@
+sp World world_07
+sp NameText LEVELNAME_R14
+sp Objective LEVELOBJ_R14
+sp ObjectiveHint LEVELOBJ_R14B
+sp Description LEVELDESC_R14
+sp WinText LEVELWIN_R14
+sp LoseText LEVELLOSE_R14
+sp IsReversed 0
+UnlockLevel level_21
+sp MapX 1372
+sp MapY 815
+sp Type rescue
+sp RescueBug poisonpillar
+sp DefenseTime 600
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 50
+sp NectarOnPaths 30
+sp TravelDistance 25
+BugSetup 0 poisonpillar 4
+BugSetup 0 spider 8
+BugSetup 0 bomberbee 2
+BugSetup 1 beetlehero 1
+BugSetup 1 trapped 1
+BugSetup 2 nectarbonus 30
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 1 1
+SetLanes 2 0
+SetLanes 2 2
+Script "addhint HINT_RMB"
+Script "addhint HINT_GUARDS"
+Script "addhint HINT_RESCUE_COLLECT" 
+Script "sethintfreq 60"
+Script "wait 540"
+Script "setlight 60 ff282010 20202020 ffffffff 1 30 0 110 200"
+sp Music rescue
+setlight 0 ff502050 20302030 ffffffff 0.2 130 0 0 200

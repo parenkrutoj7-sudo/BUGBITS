@@ -1,0 +1,42 @@
+sp World world_02
+sp NameText LEVELNAME_R03
+sp Objective LEVELOBJ_R03
+sp ObjectiveHint LEVELOBJ_R03B
+sp Description LEVELDESC_R03
+sp WinText LEVELWIN_R03
+sp LoseText LEVELLOSE_R03
+sp IsReversed 0
+UnlockLevel level_04
+sp MapX 504
+sp MapY 606
+sp Type rescue
+sp RescueBug wildbee
+sp DefenseTime 480
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 16
+sp NectarOnPaths 12
+sp TravelDistance 20
+BugSetup 0 stinkbug 10
+BugSetup 1 stinkbug 5
+BugSetup 1 trapped 1
+BugSetup 2 nectarbonus 18
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 0 3
+SetLanes 1 0
+SetLanes 2 1
+SetLanes 2 2
+SetLanes 2 3
+Script "addhint HINT_GUARDS"
+Script "wait 10"
+Script "addhint HINT_RESCUE_WILDBEE"
+Script "wait 10"
+Script "addhint HINT_RMB"
+Script "addhint HINT_RESCUE_LATER" 
+Script "sethintfreq 30"
+Script "wait 400"
+Script "setlight 60 ff403020 20202020 ffffffff 1 40 0 -30 300"
+sp Music rescue
+setlight 0 ff202040 20404080 ffffffff 0.2 130 0 0 180

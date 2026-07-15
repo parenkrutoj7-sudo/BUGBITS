@@ -1,0 +1,38 @@
+sp World world_05
+sp NameText LEVELNAME_R06
+sp Objective LEVELOBJ_R06
+sp ObjectiveHint LEVELOBJ_R06B
+sp Description LEVELDESC_R06
+sp WinText LEVELWIN_R06
+sp LoseText LEVELLOSE_R06
+sp IsReversed 0
+UnlockLevel level_08
+sp MapX 852
+sp MapY 454
+sp Type rescue
+sp RescueBug wasp
+sp DefenseTime 360
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 20
+sp NectarOnPaths 12
+sp TravelDistance 16
+BugSetup 0 rhinobeetle 8
+BugSetup 1 bigbangbug 1
+BugSetup 1 stinkbug 5
+BugSetup 1 trapped 1
+BugSetup 2 nectarbonus 16
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 1 0
+SetLanes 2 1
+SetLanes 2 2
+Script "addhint HINT_RMB"
+Script "addhint HINT_GUARDS"
+Script "addhint HINT_RESCUE_COLLECT" 
+Script "sethintfreq 60"
+Script "wait 300"
+Script "setlight 60 ff403020 20242420 ffffffff 1 40 0 -30 230"
+sp Music rescue
+setlight 0 ff000020 20202040 ffffffff 0.2 130 0 0 180

@@ -1,0 +1,61 @@
+sp World world_04
+sp NameText LEVELNAME_C02
+sp Objective LEVELOBJ_SURVIVELONG
+sp Description LEVELDESC_C02
+sp IsReversed 0
+UnlockLevel level_14
+sp MapX 818
+sp MapY 182
+sp Type challenge
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 75
+sp NectarOnPaths 25
+BugSetup 0 stinkbug 100
+BugSetup 1 toxicbug 100
+BugSetup 2 toxichero 100
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 0 3
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 1 2
+SetLanes 1 3
+SetLanes 2 0
+SetLanes 2 1
+SetLanes 2 2
+SetLanes 2 3
+Script "wait 5"
+Script "sendenemy stinkbug 0 null 0"
+Script "sendenemy stinkbug 1 null 0"
+Script "sendenemy stinkbug 2 null 0"
+Script "sendenemy stinkbug 3 null 0"
+Script "wait 25"
+Script "sendenemy toxicbug 0 null 0"
+Script "sendenemy toxicbug 1 null 0"
+Script "sendenemy toxicbug 2 null 0"
+Script "sendenemy toxicbug 3 null 0"
+Script "sp AirDefenseLevel 2"
+Script "wait 30"
+Script "setflow 0 3 24 20"
+Script "wait 120"
+Script "setflow 0 3 15 10"
+Script "setflow 1 8 32 30"
+Script "sp AirDefenseLevel 3"
+Script "wait 120"
+Script "setflow 0 5 10 40"
+Script "setflow 1 4 24 30"
+Script "sp AirDefenseLevel 4"
+Script "wait 120"
+Script "setflow 1 10 10 0"
+Script "setflow 2 30 30 0"
+Script "sp AirDefenseLevel 5"
+Script "wait 120"
+Script "setflow 2 20 20 0"
+Script "sp AirDefenseLevel 6"
+Script "wait 120"
+Script "setflow 2 10 10 0"
+Script "sp AirDefenseLevel 7"
+sp Music desert
+setlight 0 ffc090a0 20222020 ffffffff 1 20 0 160 220

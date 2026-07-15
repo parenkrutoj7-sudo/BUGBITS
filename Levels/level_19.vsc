@@ -1,0 +1,49 @@
+sp World world_08
+sp NameText LEVELNAME_19
+sp Objective LEVELOBJ_SURVIVE10
+sp Description LEVELDESC_19
+sp WinText LEVELWIN_19
+sp LoseText LEVELLOSE_19
+sp IsReversed 1
+UnlockLevel level_18
+UnlockLevel rescue_11
+sp MapX 1416
+sp MapY 562
+sp Type defense
+sp DefenseTime 600
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 50
+sp NectarOnPaths 0
+BugSetup 0 wildbee 20
+BugSetup 0 bee 70
+BugSetup 0 wasp 10
+BugSetup 1 giantwaterbeetle 30
+BugSetup 1 waterbeetle 40
+BugSetup 1 bomberbee 10
+BugSetup 1 stagbeetle 10
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 1 2
+Script "sendenemy giantwaterbeetle 0 null 0"
+Script "sendenemy stagbeetle 1 D_NONE 0"
+Script "sendenemy giantwaterbeetle 2 null 0"
+Script "wait 20"
+Script "setflow 0 20 40 40"
+Script "sp AirDefenseLevel 3"
+Script "wait 40"
+Script "setflow 1 5 15 30"
+Script "wait 120"
+Script "setflow 1 5 20 25"
+Script "wait 120"
+Script "setflow 1 4 20 20"
+Script "wait 120"
+Script "setflow 1 4 24 20"
+Script "wait 90"
+Script "setflow 1 4 24 10"
+Script "setlight 90 ff202040 20202040 ffa0a0ff 0.2 0 0 0 100"
+sp Music mushrooms
+setlight 0 ff282010 20222220 ffffffff 1 25 0 260 250

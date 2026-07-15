@@ -1,0 +1,17 @@
+sp World world_04
+sp NameText LEVELNAME_M04
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_MR
+sp IsReversed 0
+UnlockLevel level_03
+UnlockLevel rescue_06
+sp MapX 818
+sp MapY 70
+sp Type multirandom
+sp DefenseTime 600
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 30
+sp NectarOnPaths 10
+sp Music desert
+setlight 0 ff908060 20242020 ffffffff 1 30 0 -45 230

@@ -1,0 +1,50 @@
+sp World world_01
+sp NameText LEVELNAME_01
+sp Objective LEVELOBJ_GATHER60
+sp Description LEVELDESC_01
+sp WinText LEVELWIN_01
+sp LoseText LEVELLOSE_01
+sp IsReversed 0
+sp MapX 175
+sp MapY 790
+sp Type gather
+sp GoalNectar 60
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 0
+sp NectarOnPaths 0
+BugSetup 0 ant 60
+BugSetup 0 littlebeetle 30
+BugSetup 0 bee 10
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+Script "sendplayer ant 2 D_01_INTRO 2"
+Script "wait 5"
+Script "setlight 20 ffc0c0ff 20242420 ffffffff 1 40 0 -30 200"
+Script "addhint HINT_ANT"
+Script "wait 10"
+Script "addhint HINT_ANT_CLICK"
+Script "wait 10"
+Script "addhint HINT_NECTAR"
+Script "waituntilnectar 9"
+Script "sendenemy ant 0 null 9"
+Script "sendenemy ant 2 null 9"
+Script "sendenemy littlebeetle 1 D_01_THREAT 9"
+Script "wait 8"
+Script "addhint HINT_DONTLET"
+Script "addhint HINT_ANT_COMBAT"
+Script "wait 6"
+Script "sendplayer littlebeetle 1 D_01_DEFEND 5"
+Script "removehint HINT_ANT_CLICK"
+Script "wait 10"
+Script "addhint HINT_LITTLEBEETLE"
+Script "wait 10"
+Script "addhint HINT_BEE"
+Script "setflow 0 10 20 20"
+Script "wait 30"
+Script "addhint HINT_RMB"
+Script "addhint HINT_GATHER"
+Script "sethintfreq 30"
+sp Music grass
+setlight 0 ffffa0d0 20303060 ffa0a0ff 0.7 10 0 0 180

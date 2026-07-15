@@ -1,0 +1,43 @@
+sp World world_04
+sp NameText LEVELNAME_R02
+sp Objective LEVELOBJ_R02
+sp ObjectiveHint LEVELOBJ_R02B
+sp Description LEVELDESC_R02
+sp WinText LEVELWIN_R02
+sp LoseText LEVELLOSE_R02
+sp IsReversed 0
+UnlockLevel level_02
+UnlockLevel rescue_01
+sp MapX 754
+sp MapY 126
+sp Type rescue
+sp RescueBug stinkbug
+sp DefenseTime 480
+sp PlayerBaseSize 10
+sp EnemyBaseSize 100
+sp InitialNectar 12
+sp NectarOnPaths 12
+sp TravelDistance 20
+BugSetup 0 militant 10
+BugSetup 1 militant 5
+BugSetup 1 trapped 1
+BugSetup 2 nectarbonus 9
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 0 3
+SetLanes 1 1
+SetLanes 2 0
+SetLanes 2 2
+SetLanes 2 3
+Script "addhint HINT_GUARDS"
+Script "wait 10"
+Script "addhint HINT_RESCUE_STINKBUG"
+Script "wait 10"
+Script "addhint HINT_RMB"
+Script "addhint HINT_RESCUE_LATER" 
+Script "sethintfreq 30"
+Script "wait 400"
+Script "setlight 60 ff403020 20202020 ffffffff 1 40 0 -30 150"
+sp Music rescue
+setlight 0 ff202040 20404080 ffffffff 0.2 130 0 0 130

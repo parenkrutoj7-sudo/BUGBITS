@@ -1,0 +1,40 @@
+sp World world_05
+sp NameText LEVELNAME_20
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_20
+sp WinText LEVELWIN_20
+sp LoseText LEVELLOSE_20
+sp IsReversed 0
+UnlockLevel level_19
+sp MapX 1044
+sp MapY 398
+sp Type battle
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 20
+sp NectarOnPaths 0
+BugSetup 0 wildbee 20
+BugSetup 0 militant 80
+BugSetup 1 bigbangbug 15
+BugSetup 1 caterpillar 15
+BugSetup 1 rhinobeetle 35
+BugSetup 1 bomberbee 20
+BugSetup 1 spider 15
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 0 2
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 1 2
+Script "sendenemy bomberbee 0 null 0"
+Script "sendenemy wasp 2 null 0"
+Script "sendenemy bigbangbug 1 D_NONE 8"
+Script "wait 15"
+Script "setflow 0 20 40 40"
+Script "sp AirDefenseLevel 4"
+Script "wait 60"
+Script "setflow 1 10 20 50"
+Script "wait 120"
+Script "setflow 1 10 30 50"
+sp Music desert
+setlight 0 ff908060 20242020 ffffffff 1 30 0 -45 230

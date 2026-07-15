@@ -1,0 +1,17 @@
+sp World world_06
+sp NameText LEVELNAME_M06
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_MR
+sp IsReversed 0
+UnlockLevel level_16
+UnlockLevel rescue_06
+sp MapX 1328
+sp MapY 174
+sp Type multirandom
+sp DefenseTime 600
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 30
+sp NectarOnPaths 0
+sp Music desert
+setlight 0 ff908060 20242020 ffffffff 1 30 0 -45 230

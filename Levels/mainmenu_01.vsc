@@ -1,0 +1,10 @@
+sp World world_01
+sp IsReversed 0
+sp Type menu
+sp PlayerBaseSize 100
+sp EnemyBaseSize 100
+sp InitialNectar 0
+sp NectarOnPaths 0
+menumode 1
+sp Music title
+setlight 0 ffc0c0ff 20202020 ffffffff 1 30 0 -30 200

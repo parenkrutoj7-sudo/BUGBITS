@@ -1,0 +1,49 @@
+sp World world_06
+sp NameText LEVELNAME_16
+sp Objective LEVELOBJ_SURVIVE7
+sp Description LEVELDESC_16
+sp WinText LEVELWIN_16
+sp LoseText LEVELLOSE_16
+sp IsReversed 0
+UnlockLevel level_13
+UnlockLevel level_14
+UnlockLevel rescue_09
+sp MapX 1228
+sp MapY 174
+sp Type defense
+sp DefenseTime 420
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 40
+sp NectarOnPaths 0
+BugSetup 0 wildbee 50
+BugSetup 0 militant 50
+BugSetup 1 waterbeetle 50
+BugSetup 1 caterpillar 10
+BugSetup 1 stinkbug 30
+BugSetup 1 giantwaterbeetle 10
+BugSetup 2 spider 100
+SetLanes 0 0
+SetLanes 0 1
+SetLanes 1 0
+SetLanes 1 1
+SetLanes 2 0
+SetLanes 2 1
+Script "sendenemy spider 0 null 0"
+Script "sendenemy spider 1 D_NONE 5"
+Script "wait 5"
+Script "setflow 0 20 40 60"
+Script "sp AirDefenseLevel 3"
+Script "wait 35"
+Script "addhint HINT_LILY"
+Script "sethintfreq 60"
+Script "setflow 1 10 20 20"
+Script "wait 80"
+Script "setflow 1 5 15 30"
+Script "setflow 2 10 20 60"
+Script "wait 180"
+Script "setflow 1 5 20 30"
+Script "wait 30"
+Script "setlight 90 ff406080 20404080 ffa0a0ff 0.2 0 0 0 100"
+sp Music desert
+setlight 0 ff908060 20242420 ffffffff 0.85 60 0 30 150

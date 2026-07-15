@@ -1,0 +1,16 @@
+sp World world_05
+sp NameText LEVELNAME_M05
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_M
+sp IsReversed 0
+UnlockLevel level_17
+sp MapX 1012
+sp MapY 454
+sp Type multibattle
+sp DefenseTime 600
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 30
+sp NectarOnPaths 10
+sp Music desert
+setlight 0 ff908060 20242020 ffffffff 1 30 0 -45 230

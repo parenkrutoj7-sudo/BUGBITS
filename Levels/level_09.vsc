@@ -1,0 +1,37 @@
+sp World world_03
+sp NameText LEVELNAME_09
+sp Objective LEVELOBJ_DESTROY
+sp Description LEVELDESC_09
+sp WinText LEVELWIN_09
+sp LoseText LEVELLOSE_09
+UnlockLevel level_08
+UnlockLevel rescue_05
+sp MapX 348
+sp MapY 228
+sp Type battle
+sp PlayerBaseSize 10
+sp EnemyBaseSize 10
+sp InitialNectar 25
+sp NectarOnPaths 0
+BugSetup 0 waterbeetle 90
+BugSetup 0 wildbee 10
+BugSetup 1 littlebeetle 50
+BugSetup 1 stinkbug 30
+BugSetup 1 militant 20
+SetLanes 0 0
+SetLanes 1 1
+Script "sendenemy giantwaterbeetle 0 D_9_BIGSPLASH 5"
+Script "wait 30"
+Script "sp AirDefenseLevel 2"
+Script "setflow 0 10 20 20"
+Script "setflow 1 10 20 20"
+Script "addhint HINT_LILY"
+Script "sethintfreq 60"
+Script "wait 90"
+Script "setflow 0 10 30 35"
+Script "setflow 1 10 30 35"
+Script "wait 150"
+Script "setflow 0 7 30 30"
+Script "setflow 1 10 30 30"
+sp Music grass
+setlight 0 ffc090a0 20222020 ffffffff 1 25 0 -10 200

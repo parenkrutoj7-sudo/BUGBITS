@@ -1,0 +1,1169 @@
+sp "AmbientSfx" "sfx/ambient_field_01"
+sp "DustParticle" "20ff9f70"
+sp "DustType" 0.0000000000
+sp "FlyHeight" 80.0000000000
+sp "FogColor" "ffc0e0ff"
+sp "FogEnd" 800.0000000000
+sp "FogStart" 300.0000000000
+sp "FogType" 1.0000000000
+sp "Height" 320.0000000000
+sp "MaxCamDistance" 400.0000000000
+sp "MaxYaw" 0.4000000060
+sp "MinAngle" 0.6999999881
+sp "MinCamDistance" 180.0000000000
+sp "Offset" -10.0000000000 -40.0000000000 0.0000000000
+sp "Width" 350.0000000000
+sp "WindParticle" "Particles/pe_dandelion"
+
+SpawnEntity "Flower" "FLOWER"
+SpawnEntity "Flower1" "FLOWER"
+SpawnEntity "Flower2" "FLOWER"
+SpawnEntity "Flower3" "FLOWER"
+SpawnEntity "Light" "LIGHT"
+SpawnEntity "World" "STATIC"
+SpawnEntity "start" "START"
+SpawnEntity "start1" "START"
+SpawnEntity "start2" "START"
+SpawnEntity "start3" "START"
+SpawnEntity "start4" "START"
+SpawnEntity "start5" "START"
+SpawnEntity "start6" "START"
+SpawnEntity "start7" "START"
+SpawnEntity "wp" "WAYPOINT"
+SpawnEntity "wp1" "WAYPOINT"
+SpawnEntity "wp10" "WAYPOINT"
+SpawnEntity "wp100" "WAYPOINT"
+SpawnEntity "wp101" "WAYPOINT"
+SpawnEntity "wp102" "WAYPOINT"
+SpawnEntity "wp103" "WAYPOINT"
+SpawnEntity "wp104" "WAYPOINT"
+SpawnEntity "wp105" "WAYPOINT"
+SpawnEntity "wp106" "WAYPOINT"
+SpawnEntity "wp107" "WAYPOINT"
+SpawnEntity "wp108" "WAYPOINT"
+SpawnEntity "wp109" "WAYPOINT"
+SpawnEntity "wp11" "WAYPOINT"
+SpawnEntity "wp110" "WAYPOINT"
+SpawnEntity "wp111" "WAYPOINT"
+SpawnEntity "wp112" "WAYPOINT"
+SpawnEntity "wp113" "WAYPOINT"
+SpawnEntity "wp114" "WAYPOINT"
+SpawnEntity "wp115" "WAYPOINT"
+SpawnEntity "wp116" "WAYPOINT"
+SpawnEntity "wp117" "WAYPOINT"
+SpawnEntity "wp118" "WAYPOINT"
+SpawnEntity "wp119" "WAYPOINT"
+SpawnEntity "wp12" "WAYPOINT"
+SpawnEntity "wp120" "WAYPOINT"
+SpawnEntity "wp121" "WAYPOINT"
+SpawnEntity "wp13" "WAYPOINT"
+SpawnEntity "wp14" "WAYPOINT"
+SpawnEntity "wp15" "WAYPOINT"
+SpawnEntity "wp16" "WAYPOINT"
+SpawnEntity "wp17" "WAYPOINT"
+SpawnEntity "wp18" "WAYPOINT"
+SpawnEntity "wp19" "WAYPOINT"
+SpawnEntity "wp2" "WAYPOINT"
+SpawnEntity "wp20" "WAYPOINT"
+SpawnEntity "wp21" "WAYPOINT"
+SpawnEntity "wp22" "WAYPOINT"
+SpawnEntity "wp23" "WAYPOINT"
+SpawnEntity "wp24" "WAYPOINT"
+SpawnEntity "wp25" "WAYPOINT"
+SpawnEntity "wp26" "WAYPOINT"
+SpawnEntity "wp27" "WAYPOINT"
+SpawnEntity "wp28" "WAYPOINT"
+SpawnEntity "wp29" "WAYPOINT"
+SpawnEntity "wp3" "WAYPOINT"
+SpawnEntity "wp30" "WAYPOINT"
+SpawnEntity "wp31" "WAYPOINT"
+SpawnEntity "wp32" "WAYPOINT"
+SpawnEntity "wp33" "WAYPOINT"
+SpawnEntity "wp34" "WAYPOINT"
+SpawnEntity "wp35" "WAYPOINT"
+SpawnEntity "wp36" "WAYPOINT"
+SpawnEntity "wp37" "WAYPOINT"
+SpawnEntity "wp38" "WAYPOINT"
+SpawnEntity "wp39" "WAYPOINT"
+SpawnEntity "wp4" "WAYPOINT"
+SpawnEntity "wp40" "WAYPOINT"
+SpawnEntity "wp41" "WAYPOINT"
+SpawnEntity "wp42" "WAYPOINT"
+SpawnEntity "wp43" "WAYPOINT"
+SpawnEntity "wp44" "WAYPOINT"
+SpawnEntity "wp45" "WAYPOINT"
+SpawnEntity "wp46" "WAYPOINT"
+SpawnEntity "wp47" "WAYPOINT"
+SpawnEntity "wp48" "WAYPOINT"
+SpawnEntity "wp49" "WAYPOINT"
+SpawnEntity "wp5" "WAYPOINT"
+SpawnEntity "wp50" "WAYPOINT"
+SpawnEntity "wp51" "WAYPOINT"
+SpawnEntity "wp52" "WAYPOINT"
+SpawnEntity "wp53" "WAYPOINT"
+SpawnEntity "wp54" "WAYPOINT"
+SpawnEntity "wp55" "WAYPOINT"
+SpawnEntity "wp56" "WAYPOINT"
+SpawnEntity "wp57" "WAYPOINT"
+SpawnEntity "wp58" "WAYPOINT"
+SpawnEntity "wp59" "WAYPOINT"
+SpawnEntity "wp6" "WAYPOINT"
+SpawnEntity "wp60" "WAYPOINT"
+SpawnEntity "wp61" "WAYPOINT"
+SpawnEntity "wp62" "WAYPOINT"
+SpawnEntity "wp63" "WAYPOINT"
+SpawnEntity "wp64" "WAYPOINT"
+SpawnEntity "wp65" "WAYPOINT"
+SpawnEntity "wp66" "WAYPOINT"
+SpawnEntity "wp67" "WAYPOINT"
+SpawnEntity "wp68" "WAYPOINT"
+SpawnEntity "wp69" "WAYPOINT"
+SpawnEntity "wp7" "WAYPOINT"
+SpawnEntity "wp70" "WAYPOINT"
+SpawnEntity "wp71" "WAYPOINT"
+SpawnEntity "wp72" "WAYPOINT"
+SpawnEntity "wp73" "WAYPOINT"
+SpawnEntity "wp74" "WAYPOINT"
+SpawnEntity "wp75" "WAYPOINT"
+SpawnEntity "wp76" "WAYPOINT"
+SpawnEntity "wp77" "WAYPOINT"
+SpawnEntity "wp78" "WAYPOINT"
+SpawnEntity "wp79" "WAYPOINT"
+SpawnEntity "wp8" "WAYPOINT"
+SpawnEntity "wp80" "WAYPOINT"
+SpawnEntity "wp81" "WAYPOINT"
+SpawnEntity "wp82" "WAYPOINT"
+SpawnEntity "wp83" "WAYPOINT"
+SpawnEntity "wp84" "WAYPOINT"
+SpawnEntity "wp85" "WAYPOINT"
+SpawnEntity "wp86" "WAYPOINT"
+SpawnEntity "wp87" "WAYPOINT"
+SpawnEntity "wp88" "WAYPOINT"
+SpawnEntity "wp89" "WAYPOINT"
+SpawnEntity "wp9" "WAYPOINT"
+SpawnEntity "wp90" "WAYPOINT"
+SpawnEntity "wp91" "WAYPOINT"
+SpawnEntity "wp92" "WAYPOINT"
+SpawnEntity "wp93" "WAYPOINT"
+SpawnEntity "wp94" "WAYPOINT"
+SpawnEntity "wp95" "WAYPOINT"
+SpawnEntity "wp96" "WAYPOINT"
+SpawnEntity "wp97" "WAYPOINT"
+SpawnEntity "wp98" "WAYPOINT"
+SpawnEntity "wp99" "WAYPOINT"
+> "Flower"
+	sp "Direction" 0.2647174299 -0.9643260837 0.0000000000
+	sp "FlowerType" 1.0000000000
+	sp "Position" -97.0425872803 -156.7954101563 -1.5189819336
+	<
+
+> "Flower1"
+	sp "Direction" -0.2389807552 0.9710242748 0.0000000000
+	sp "FlowerType" 1.0000000000
+	sp "Position" 29.3521575928 -67.8827514648 -17.1762084961
+	<
+
+> "Flower2"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "FlowerType" 1.0000000000
+	sp "Position" -29.7136478424 19.6072044373 -17.1762084961
+	<
+
+> "Flower3"
+	sp "Direction" -0.9963268638 -0.0856324658 0.0000000000
+	sp "FlowerType" 1.0000000000
+	sp "Position" 76.5620727539 88.5580520630 1.5190398693
+	<
+
+> "Light"
+	sp "Direction" 0.2221584022 0.6551281810 0.7221168876
+	sp "Position" -80.9161300659 -110.2817687988 -55.5014648438
+	<
+
+> "World"
+	sp "Direction" 1.0000000000 0.0000000000 0.0000000000
+	sp "Model" "worlds/world_02"
+	sp "Position" 0.0562200584 -0.1967618167 1.0000000000
+
+	> "worlds.world_02"
+
+		> "dandelions"
+			sp "Material0" "SYSTEM/blendedlighted"
+			sp "Material1" "SYSTEM/zadditive"
+			<
+
+
+		> "grass_a"
+			sp "Material0" "SYSTEM/blendedlighted"
+			sp "Material1" "SYSTEM/blendedlighted"
+			sp "Material2" "SYSTEM/blendedlighted"
+			<
+
+
+		> "grass_c"
+			sp "Material0" "SYSTEM/blendedlighted"
+			sp "Material1" "SYSTEM/blendedlighted"
+			sp "Material2" "SYSTEM/blendedlighted"
+			<
+
+
+		> "grass_seed1"
+			sp "Material0" "SYSTEM/blendedlighted"
+			<
+
+
+		> "grass_seed2"
+			sp "Material0" "SYSTEM/blendedlighted"
+			<
+
+
+		> "ground"
+			sp "Material0" "SYSTEM/lighted"
+			sp "Material1" "SYSTEM/lighted"
+			<
+
+
+		> "nefelejcs"
+			sp "Material0" "SYSTEM/blendedlighted"
+			<
+
+
+		> "pebbles"
+			sp "Material0" "SYSTEM/lighted"
+			sp "Material1" "SYSTEM/lighted"
+			<
+
+
+		> "schamrock_b"
+			sp "Material0" "SYSTEM/blendedlightedambient"
+			<
+
+
+		> "schemrock_a"
+			sp "Material0" "SYSTEM/blendedlighted"
+			<
+
+		<
+
+	<
+
+> "start"
+	ConnectTo "wp36"
+	sp "Direction" 0.9999148250 -0.0130524896 0.0000000000
+	sp "Index" 0.0000000000
+	sp "Position" -344.5433349609 93.5287857056 3.7390441895
+	sp "SideID" 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "start1"
+	ConnectTo "wp37"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Index" 1.0000000000
+	sp "Position" -358.9060058594 -5.2995705605 -6.1927947998
+	sp "SideID" 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "start2"
+	ConnectTo "wp84"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Index" 2.0000000000
+	sp "Position" -355.9421386719 -75.5419921875 -10.0486879349
+	sp "SideID" 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "start3"
+	ConnectTo "wp85"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Index" 3.0000000000
+	sp "Position" -372.9471435547 -200.4284820557 3.7390441895
+	sp "SideID" 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "start4"
+	sp "Direction" -0.8442537785 -0.5359436274 0.0000000000
+	sp "Index" 0.0000000000
+	sp "Position" 333.8614807129 172.4740600586 3.9727325439
+	sp "SideID" 1.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "start5"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Index" 1.0000000000
+	sp "Position" 349.4241943359 35.5703964233 4.5569581985
+	sp "SideID" 1.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "start6"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Index" 2.0000000000
+	sp "Position" 347.2979431152 -41.2345504761 4.2064223289
+	sp "SideID" 1.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "start7"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Index" 3.0000000000
+	sp "Position" 356.5982666016 -134.7261199951 4.2064266205
+	sp "SideID" 1.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "wp"
+	ConnectTo "start4"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 245.4637451172 116.6983261108 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp1"
+	ConnectTo "wp"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 221.3077697754 103.5465621948 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp10"
+	ConnectTo "wp9"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 24.2616882324 130.8796691895 4.0895767212
+	sp "Water" 0.0000000000
+	<
+
+> "wp100"
+	ConnectTo "wp101"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 67.8577499390 -152.6762084961 0.8179168701
+	sp "Water" 0.0000000000
+	<
+
+> "wp101"
+	ConnectTo "wp102"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 59.5833702087 -172.2192382813 3.6222076416
+	sp "Water" 0.0000000000
+	<
+
+> "wp102"
+	ConnectTo "wp103"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 57.5280990601 -183.1974792480 6.4264831543
+	sp "Water" 0.0000000000
+	<
+
+> "wp103"
+	ConnectTo "wp104"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 60.7918701172 -192.6347808838 8.0623168945
+	sp "Water" 0.0000000000
+	<
+
+> "wp104"
+	ConnectTo "wp105"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 74.8805770874 -196.6221618652 8.0623168945
+	sp "Water" 0.0000000000
+	<
+
+> "wp105"
+	ConnectTo "wp106"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 88.7034454346 -199.5462341309 8.0623168945
+	sp "Water" 0.0000000000
+	<
+
+> "wp106"
+	ConnectTo "wp107"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 104.3870925903 -203.5335693359 8.0623168945
+	sp "Water" 0.0000000000
+	<
+
+> "wp107"
+	ConnectTo "wp108"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 120.9332427979 -209.2027740479 3.5053527355
+	sp "Water" 0.0000000000
+	<
+
+> "wp108"
+	ConnectTo "wp109"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 137.4985961914 -218.1044769287 3.5053527355
+	sp "Water" 0.0000000000
+	<
+
+> "wp109"
+	ConnectTo "wp110"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 149.3379516602 -215.0687561035 3.5053527355
+	sp "Water" 0.0000000000
+	<
+
+> "wp11"
+	ConnectTo "wp10"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 16.7839889526 123.5346527100 4.0895919800
+	sp "Water" 0.0000000000
+	<
+
+> "wp110"
+	ConnectTo "wp111"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 152.6772460938 -207.7830352783 3.5053527355
+	sp "Water" 0.0000000000
+	<
+
+> "wp111"
+	ConnectTo "wp112"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 155.8440856934 -195.7556457520 3.5053527355
+	sp "Water" 0.0000000000
+	<
+
+> "wp112"
+	ConnectTo "wp113"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 154.8022766113 -182.8900604248 3.5053527355
+	sp "Water" 0.0000000000
+	<
+
+> "wp113"
+	ConnectTo "wp114"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 147.8200988770 -172.8721313477 3.5053527355
+	sp "Water" 0.0000000000
+	<
+
+> "wp114"
+	ConnectTo "wp115"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 138.7129058838 -162.5506896973 3.5053527355
+	sp "Water" 0.0000000000
+	<
+
+> "wp115"
+	ConnectTo "wp116"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 135.0700378418 -146.4613342285 3.5053527355
+	sp "Water" 0.0000000000
+	<
+
+> "wp116"
+	ConnectTo "wp117"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 139.3200683594 -137.3541564941 3.5053527355
+	sp "Water" 0.0000000000
+	<
+
+> "wp117"
+	ConnectTo "wp118"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 150.2486724854 -128.5505523682 4.2064242363
+	sp "Water" 0.0000000000
+	<
+
+> "wp118"
+	ConnectTo "wp119"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 165.1237182617 -120.0505065918 4.2064242363
+	sp "Water" 0.0000000000
+	<
+
+> "wp119"
+	ConnectTo "wp120"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 192.4452819824 -117.6219406128 4.2064242363
+	sp "Water" 0.0000000000
+	<
+
+> "wp12"
+	ConnectTo "wp11"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 16.0193862915 112.8069076538 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp120"
+	ConnectTo "wp121"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 211.4428405762 -119.9861526489 4.2064242363
+	sp "Water" 0.0000000000
+	<
+
+> "wp121"
+	ConnectTo "start7"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 235.2462158203 -126.8758087158 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp13"
+	ConnectTo "wp12"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 22.7439002991 100.6071319580 4.0895919800
+	sp "Water" 0.0000000000
+	<
+
+> "wp14"
+	ConnectTo "wp13"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 30.8850841522 90.8075561523 4.0895919800
+	sp "Water" 0.0000000000
+	<
+
+> "wp15"
+	ConnectTo "wp14"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 34.5174484253 80.4617233276 4.0895814896
+	sp "Water" 0.0000000000
+	<
+
+> "wp16"
+	ConnectTo "wp15"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 30.2674484253 69.2295303345 4.0895814896
+	sp "Water" 0.0000000000
+	<
+
+> "wp17"
+	ConnectTo "wp16"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 17.9453506470 61.6483078003 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp18"
+	ConnectTo "wp17"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -0.8999862671 57.2761993408 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp19"
+	ConnectTo "wp18"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -18.2376995087 61.7990684509 4.0895919800
+	sp "Water" 0.0000000000
+	<
+
+> "wp2"
+	ConnectTo "wp1"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 209.2940216064 99.6466751099 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp20"
+	ConnectTo "wp19"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -48.8425292969 80.6444168091 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp21"
+	ConnectTo "wp20"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -64.9665145874 96.3050689697 3.9727401733
+	sp "Water" 0.0000000000
+	<
+
+> "wp22"
+	ConnectTo "wp21"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -74.1615600586 113.5511474609 3.9727356434
+	sp "Water" 0.0000000000
+	<
+
+> "wp23"
+	ConnectTo "wp22"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -86.9586868286 116.4896697998 3.9727249146
+	sp "Water" 0.0000000000
+	<
+
+> "wp24"
+	ConnectTo "wp23"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -99.0091857910 115.7364959717 3.9727249146
+	sp "Water" 0.0000000000
+	<
+
+> "wp25"
+	ConnectTo "wp24"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -112.2647552490 106.8492584229 3.9727325439
+	sp "Water" 0.0000000000
+	<
+
+> "wp26"
+	ConnectTo "wp25"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -113.7710647583 87.7190780640 3.9727325439
+	sp "Water" 0.0000000000
+	<
+
+> "wp27"
+	ConnectTo "wp26"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -113.4698104858 72.9572067261 3.9727249146
+	sp "Water" 0.0000000000
+	<
+
+> "wp28"
+	ConnectTo "wp27"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -119.0431671143 62.4130134583 3.9727401733
+	sp "Water" 0.0000000000
+	<
+
+> "wp29"
+	ConnectTo "wp28"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -138.1608734131 60.5726509094 4.0895781517
+	sp "Water" 0.0000000000
+	<
+
+> "wp3"
+	ConnectTo "wp2"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 188.0275726318 98.2540512085 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp30"
+	ConnectTo "wp29"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -153.2168273926 67.8111190796 0.9347580075
+	sp "Water" 0.0000000000
+	<
+
+> "wp31"
+	ConnectTo "wp30"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -170.4626770020 81.0065078735 -2.5705871582
+	sp "Water" 0.0000000000
+	<
+
+> "wp32"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -184.1106567383 96.5851364136 3.9727358818
+	sp "Water" 0.0000000000
+	<
+
+> "wp33"
+	ConnectTo "wp31"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -188.1903076172 104.9237823486 2.6874375343
+	sp "Water" 0.0000000000
+	<
+
+> "wp34"
+	ConnectTo "wp33"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -203.1157379150 115.6548461914 3.9727325439
+	sp "Water" 0.0000000000
+	<
+
+> "wp35"
+	ConnectTo "wp34"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -216.8231811523 111.1359100342 3.9727325439
+	sp "Water" 0.0000000000
+	<
+
+> "wp36"
+	ConnectTo "wp35"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -261.0341796875 95.4232330322 3.9727325439
+	sp "Water" 0.0000000000
+	<
+
+> "wp37"
+	ConnectTo "wp38"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -264.5276489258 -4.2566604614 -6.0759582520
+	sp "Water" 0.0000000000
+	<
+
+> "wp38"
+	ConnectTo "wp39"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -230.1771545410 4.0805912018 0.2336821556
+	sp "Water" 0.0000000000
+	<
+
+> "wp39"
+	ConnectTo "wp40"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -204.2218322754 19.2463855743 3.9727325439
+	sp "Water" 0.0000000000
+	<
+
+> "wp4"
+	ConnectTo "wp3"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 161.3454284668 100.3594970703 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp40"
+	ConnectTo "wp41"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -189.7850341797 26.1632080078 3.9727325439
+	sp "Water" 0.0000000000
+	<
+
+> "wp41"
+	ConnectTo "wp42"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -176.7315673828 29.3404045105 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp42"
+	ConnectTo "wp43"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -163.3846435547 24.5667572021 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp43"
+	ConnectTo "wp44"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -148.2891082764 12.7990875244 4.0895814896
+	sp "Water" 0.0000000000
+	<
+
+> "wp44"
+	ConnectTo "wp45"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -135.2354888916 6.4240570068 3.8559026718
+	sp "Water" 0.0000000000
+	<
+
+> "wp45"
+	ConnectTo "wp46"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -121.4067306519 1.8104553223 -1.7654876709
+	sp "Water" 0.0000000000
+	<
+
+> "wp46"
+	ConnectTo "wp47"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -105.0196609497 -3.4599838257 -7.1363449097
+	sp "Water" 0.0000000000
+	<
+
+> "wp47"
+	ConnectTo "wp48"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -90.9614715576 -7.1434478760 -9.8221693039
+	sp "Water" 0.0000000000
+	<
+
+> "wp48"
+	ConnectTo "wp49"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -63.3677673340 -13.4608497620 -23.3794345856
+	sp "Water" 0.0000000000
+	<
+
+> "wp49"
+	ConnectTo "wp50"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -42.0565376282 -15.0968551636 -27.0008468628
+	sp "Water" 0.0000000000
+	<
+
+> "wp5"
+	ConnectTo "wp4"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 134.3582000732 106.8734283447 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp50"
+	ConnectTo "wp52"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -10.4952583313 -7.9877910614 -24.0772857666
+	sp "Water" 0.0000000000
+	<
+
+> "wp51"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 21.4357757568 8.9168167114 -7.9454193115
+	sp "Water" 0.0000000000
+	<
+
+> "wp52"
+	ConnectTo "wp53"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 44.1229972839 23.6488075256 -4.0967464447
+	sp "Water" 0.0000000000
+	<
+
+> "wp53"
+	ConnectTo "wp54"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 65.6316604614 39.8539581299 2.8043363094
+	sp "Water" 0.0000000000
+	<
+
+> "wp54"
+	ConnectTo "wp55"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 80.6582641602 48.1038513184 3.9727909565
+	sp "Water" 0.0000000000
+	<
+
+> "wp55"
+	ConnectTo "wp56"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 96.2741622925 51.3448944092 3.9727878571
+	sp "Water" 0.0000000000
+	<
+
+> "wp56"
+	ConnectTo "wp57"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 116.5563354492 45.4113044739 3.9728088379
+	sp "Water" 0.0000000000
+	<
+
+> "wp57"
+	ConnectTo "wp58"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 138.0806579590 36.9377403259 3.9728164673
+	sp "Water" 0.0000000000
+	<
+
+> "wp58"
+	ConnectTo "wp59"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 158.3878784180 32.7649383545 3.9728164673
+	sp "Water" 0.0000000000
+	<
+
+> "wp59"
+	ConnectTo "wp60"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 176.7262420654 31.3360862732 3.9728031158
+	sp "Water" 0.0000000000
+	<
+
+> "wp6"
+	ConnectTo "wp5"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 106.7422409058 115.4811630249 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp60"
+	ConnectTo "wp61"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 197.4520263672 30.0982723236 3.9728012085
+	sp "Water" 0.0000000000
+	<
+
+> "wp61"
+	ConnectTo "wp62"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 218.1928405762 31.9589099884 3.9728012085
+	sp "Water" 0.0000000000
+	<
+
+> "wp62"
+	ConnectTo "start5"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 246.6249847412 30.8846778870 3.9728088379
+	sp "Water" 0.0000000000
+	<
+
+> "wp63"
+	ConnectTo "start6"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 246.9664154053 -34.8033027649 4.0896501541
+	sp "Water" 0.0000000000
+	<
+
+> "wp64"
+	ConnectTo "wp63"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 222.2167358398 -35.6871948242 3.7391128540
+	sp "Water" 0.0000000000
+	<
+
+> "wp65"
+	ConnectTo "wp64"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 207.7794036865 -40.6960716248 3.7391128540
+	sp "Water" 0.0000000000
+	<
+
+> "wp66"
+	ConnectTo "wp65"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 195.9938201904 -52.4816513062 3.7391147614
+	sp "Water" 0.0000000000
+	<
+
+> "wp67"
+	ConnectTo "wp66"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 182.0831909180 -58.6120491028 3.5054168701
+	sp "Water" 0.0000000000
+	<
+
+> "wp68"
+	ConnectTo "wp67"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 166.0170288086 -58.5283813477 3.7391052246
+	sp "Water" 0.0000000000
+	<
+
+> "wp69"
+	ConnectTo "wp68"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 151.8084411621 -44.9272994995 3.1548614502
+	sp "Water" 0.0000000000
+	<
+
+> "wp7"
+	ConnectTo "wp6"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 77.5343627930 124.1473312378 4.0895843506
+	sp "Water" 0.0000000000
+	<
+
+> "wp70"
+	ConnectTo "wp69"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 136.1565856934 -39.7560424805 3.1548614502
+	sp "Water" 0.0000000000
+	<
+
+> "wp71"
+	ConnectTo "wp70"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 118.2090759277 -47.7674255371 2.3369405270
+	sp "Water" 0.0000000000
+	<
+
+> "wp72"
+	ConnectTo "wp71"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 107.0127563477 -60.7315521240 -0.9347090721
+	sp "Water" 0.0000000000
+	<
+
+> "wp73"
+	ConnectTo "wp72"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 91.1820755005 -74.3975067139 -2.5705566406
+	sp "Water" 0.0000000000
+	<
+
+> "wp74"
+	ConnectTo "wp73"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 63.9954681396 -81.6509246826 -6.1927728653
+	sp "Water" 0.0000000000
+	<
+
+> "wp75"
+	ConnectTo "wp74"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 38.3008880615 -92.1574707031 -14.2607021332
+	sp "Water" 0.0000000000
+	<
+
+> "wp76"
+	ConnectTo "wp75"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 8.6863479614 -97.8104248047 -23.0273017883
+	sp "Water" 0.0000000000
+	<
+
+> "wp77"
+	ConnectTo "wp76"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -26.8085994720 -93.6757354736 -26.7655544281
+	sp "Water" 0.0000000000
+	<
+
+> "wp78"
+	ConnectTo "wp77"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -59.9553756714 -69.2682189941 -27.3505592346
+	sp "Water" 0.0000000000
+	<
+
+> "wp79"
+	ConnectTo "wp78"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -87.3108062744 -53.0782661438 -18.5863647461
+	sp "Water" 0.0000000000
+	<
+
+> "wp8"
+	ConnectTo "wp7"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 56.8631935120 130.0183105469 4.0895919800
+	sp "Water" 0.0000000000
+	<
+
+> "wp80"
+	ConnectTo "wp79"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -109.3157043457 -45.7739448547 -8.8898401260
+	sp "Water" 0.0000000000
+	<
+
+> "wp81"
+	ConnectTo "wp80"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -133.3398895264 -45.8282089233 -2.3441009521
+	sp "Water" 0.0000000000
+	<
+
+> "wp82"
+	ConnectTo "wp81"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -162.9347991943 -48.0702514648 4.5569829941
+	sp "Water" 0.0000000000
+	<
+
+> "wp83"
+	ConnectTo "wp82"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -218.7791442871 -59.8939666748 3.2716979980
+	sp "Water" 0.0000000000
+	<
+
+> "wp84"
+	ConnectTo "wp83"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -266.4975891113 -69.1464843750 -5.4916992188
+	sp "Water" 0.0000000000
+	<
+
+> "wp85"
+	ConnectTo "wp86"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -241.6335449219 -152.6786804199 3.7390441895
+	sp "Water" 0.0000000000
+	<
+
+> "wp86"
+	ConnectTo "wp87"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -203.2027130127 -139.9985656738 3.7390441895
+	sp "Water" 0.0000000000
+	<
+
+> "wp87"
+	ConnectTo "wp88"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -185.2919311523 -141.2128601074 3.7390441895
+	sp "Water" 0.0000000000
+	<
+
+> "wp88"
+	ConnectTo "wp89"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -164.3454284668 -151.8379058838 3.7390441895
+	sp "Water" 0.0000000000
+	<
+
+> "wp89"
+	ConnectTo "wp90"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -135.8095703125 -170.0522460938 3.7390441895
+	sp "Water" 0.0000000000
+	<
+
+> "wp9"
+	ConnectTo "wp8"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 37.2849311829 133.0676269531 4.0895919800
+	sp "Water" 0.0000000000
+	<
+
+> "wp90"
+	ConnectTo "wp91"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -120.0237960815 -181.8915863037 3.7390441895
+	sp "Water" 0.0000000000
+	<
+
+> "wp91"
+	ConnectTo "wp92"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -106.0594482422 -187.0523223877 3.7390441895
+	sp "Water" 0.0000000000
+	<
+
+> "wp92"
+	ConnectTo "wp93"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -87.5415191650 -186.7487487793 3.7390441895
+	sp "Water" 0.0000000000
+	<
+
+> "wp93"
+	ConnectTo "wp94"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -54.1784667969 -177.5691833496 0.8179168701
+	sp "Water" 0.0000000000
+	<
+
+> "wp94"
+	ConnectTo "wp95"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -7.1246795654 -156.9262390137 0.8179168701
+	sp "Water" 0.0000000000
+	<
+
+> "wp95"
+	ConnectTo "wp96"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 42.0540542603 -131.4261169434 0.8179168701
+	sp "Water" 0.0000000000
+	<
+
+> "wp96"
+	ConnectTo "wp97"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 59.3577117920 -127.7832565308 0.8179168701
+	sp "Water" 0.0000000000
+	<
+
+> "wp97"
+	ConnectTo "wp98"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 72.4113464355 -127.7832641602 0.8179168701
+	sp "Water" 0.0000000000
+	<
+
+> "wp98"
+	ConnectTo "wp99"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 76.9649353027 -132.3368530273 0.8179168701
+	sp "Water" 0.0000000000
+	<
+
+> "wp99"
+	ConnectTo "wp100"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 74.5363464355 -139.6225891113 0.8179168701
+	sp "Water" 0.0000000000
+	<
+

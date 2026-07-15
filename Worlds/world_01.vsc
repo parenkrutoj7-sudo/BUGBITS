@@ -1,0 +1,718 @@
+sp "AmbientSfx" "sfx/ambient_field_01"
+sp "DustParticle" "20ff9f70"
+sp "DustType" 0.0000000000
+sp "FlyHeight" 80.0000000000
+sp "FogColor" "ffc0c0ff"
+sp "FogEnd" 778.4615478516
+sp "FogStart" 178.4615325928
+sp "FogType" 1.0000000000
+sp "Height" 200.0000000000
+sp "MaxCamDistance" 258.4615478516
+sp "MaxYaw" 1.5000000000
+sp "MinAngle" 0.6999999881
+sp "MinCamDistance" 170.0000000000
+sp "Offset" 0.0000000000 -25.0000000000 0.0000000000
+sp "Width" 280.0000000000
+sp "WindParticle" "Particles/pe_dandelion"
+
+SpawnEntity "Flower" "FLOWER"
+SpawnEntity "Flower1" "FLOWER"
+SpawnEntity "Flower2" "FLOWER"
+SpawnEntity "Flower3" "FLOWER"
+SpawnEntity "Flower4" "FLOWER"
+SpawnEntity "Light" "LIGHT"
+SpawnEntity "StartLeft0" "START"
+SpawnEntity "StartLeft1" "START"
+SpawnEntity "StartLeft2" "START"
+SpawnEntity "StartRight0" "START"
+SpawnEntity "StartRight1" "START"
+SpawnEntity "StartRight2" "START"
+SpawnEntity "path0_0" "WAYPOINT"
+SpawnEntity "path0_1" "WAYPOINT"
+SpawnEntity "path0_10" "WAYPOINT"
+SpawnEntity "path0_11" "WAYPOINT"
+SpawnEntity "path0_12" "WAYPOINT"
+SpawnEntity "path0_13" "WAYPOINT"
+SpawnEntity "path0_14" "WAYPOINT"
+SpawnEntity "path0_15" "WAYPOINT"
+SpawnEntity "path0_16" "WAYPOINT"
+SpawnEntity "path0_17" "WAYPOINT"
+SpawnEntity "path0_18" "WAYPOINT"
+SpawnEntity "path0_19" "WAYPOINT"
+SpawnEntity "path0_2" "WAYPOINT"
+SpawnEntity "path0_20" "WAYPOINT"
+SpawnEntity "path0_21" "WAYPOINT"
+SpawnEntity "path0_22" "WAYPOINT"
+SpawnEntity "path0_23" "WAYPOINT"
+SpawnEntity "path0_3" "WAYPOINT"
+SpawnEntity "path0_4" "WAYPOINT"
+SpawnEntity "path0_5" "WAYPOINT"
+SpawnEntity "path0_6" "WAYPOINT"
+SpawnEntity "path0_7" "WAYPOINT"
+SpawnEntity "path0_8" "WAYPOINT"
+SpawnEntity "path0_9" "WAYPOINT"
+SpawnEntity "path1_0" "WAYPOINT"
+SpawnEntity "path1_1" "WAYPOINT"
+SpawnEntity "path1_10" "WAYPOINT"
+SpawnEntity "path1_11" "WAYPOINT"
+SpawnEntity "path1_12" "WAYPOINT"
+SpawnEntity "path1_13" "WAYPOINT"
+SpawnEntity "path1_14" "WAYPOINT"
+SpawnEntity "path1_15" "WAYPOINT"
+SpawnEntity "path1_2" "WAYPOINT"
+SpawnEntity "path1_3" "WAYPOINT"
+SpawnEntity "path1_4" "WAYPOINT"
+SpawnEntity "path1_5" "WAYPOINT"
+SpawnEntity "path1_6" "WAYPOINT"
+SpawnEntity "path1_7" "WAYPOINT"
+SpawnEntity "path1_8" "WAYPOINT"
+SpawnEntity "path1_9" "WAYPOINT"
+SpawnEntity "path2_0" "WAYPOINT"
+SpawnEntity "path2_1" "WAYPOINT"
+SpawnEntity "path2_10" "WAYPOINT"
+SpawnEntity "path2_11" "WAYPOINT"
+SpawnEntity "path2_12" "WAYPOINT"
+SpawnEntity "path2_13" "WAYPOINT"
+SpawnEntity "path2_14" "WAYPOINT"
+SpawnEntity "path2_15" "WAYPOINT"
+SpawnEntity "path2_16" "WAYPOINT"
+SpawnEntity "path2_17" "WAYPOINT"
+SpawnEntity "path2_18" "WAYPOINT"
+SpawnEntity "path2_19" "WAYPOINT"
+SpawnEntity "path2_2" "WAYPOINT"
+SpawnEntity "path2_20" "WAYPOINT"
+SpawnEntity "path2_21" "WAYPOINT"
+SpawnEntity "path2_22" "WAYPOINT"
+SpawnEntity "path2_23" "WAYPOINT"
+SpawnEntity "path2_24" "WAYPOINT"
+SpawnEntity "path2_25" "WAYPOINT"
+SpawnEntity "path2_26" "WAYPOINT"
+SpawnEntity "path2_27" "WAYPOINT"
+SpawnEntity "path2_3" "WAYPOINT"
+SpawnEntity "path2_4" "WAYPOINT"
+SpawnEntity "path2_5" "WAYPOINT"
+SpawnEntity "path2_6" "WAYPOINT"
+SpawnEntity "path2_7" "WAYPOINT"
+SpawnEntity "path2_8" "WAYPOINT"
+SpawnEntity "path2_9" "WAYPOINT"
+SpawnEntity "world" "STATIC"
+> "Flower"
+	sp "Direction" -0.5339447260 -0.8455193639 0.0000000000
+	sp "FlowerType" 1.0000000000
+	sp "Position" 60.6852378845 -4.5728473663 -2.8938932419
+	<
+
+> "Flower1"
+	sp "Direction" 0.9635180235 0.2676437497 0.0000008398
+	sp "FlowerType" 1.0000000000
+	sp "Position" 6.6133871078 -149.9163208008 -4.2443771362
+	<
+
+> "Flower2"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "FlowerType" 1.0000000000
+	sp "Position" -50.7187004089 83.6097259521 -2.3150925636
+	<
+
+> "Flower3"
+	sp "Direction" -0.3387200832 -0.9408872724 0.0000000000
+	sp "FlowerType" 1.0000000000
+	sp "Position" -93.3246078491 -51.8858337402 -3.4726562500
+	<
+
+> "Flower4"
+	sp "Direction" 0.6002763510 0.7997927070 0.0000003416
+	sp "FlowerType" 1.0000000000
+	sp "Position" 83.1135406494 -89.0546112061 -2.3150863647
+	<
+
+> "Light"
+	sp "Direction" 0.5313962698 0.5816872120 0.6158393621
+	sp "Position" -17.4799518585 -13.0664520264 -10.2250795364
+	<
+
+> "StartLeft0"
+	ConnectTo "path0_0"
+	sp "Direction" 0.7723239660 0.6352288723 -0.0000001752
+	sp "Index" 0.0000000000
+	sp "Position" -185.7672882080 24.8668556213 2.7717857361
+	sp "SideID" 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "StartLeft1"
+	ConnectTo "path1_0"
+	sp "Direction" 0.9663583040 0.2571998835 -0.0000000478
+	sp "Index" 1.0000000000
+	sp "Position" -202.2012329102 -78.7435607910 0.9022564888
+	sp "SideID" 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "StartLeft2"
+	ConnectTo "path2_0"
+	sp "Direction" 0.8738197088 0.4862501621 0.0000000000
+	sp "Index" 2.0000000000
+	sp "Position" -156.1765441895 -122.8374633789 0.3180397153
+	sp "SideID" 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "StartRight0"
+	sp "Direction" -0.9863914847 -0.1644136459 0.0000000000
+	sp "Index" 0.0000000000
+	sp "Position" 221.5774230957 60.0650177002 -4.8231506348
+	sp "SideID" 1.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "StartRight1"
+	sp "Direction" -0.9887309074 -0.1497041583 0.0000000000
+	sp "Index" 1.0000000000
+	sp "Position" 227.3487243652 3.0852508545 -2.5080566406
+	sp "SideID" 1.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "StartRight2"
+	sp "Direction" -0.9993931651 0.0348336212 0.0000000000
+	sp "Index" 2.0000000000
+	sp "Position" 220.8693847656 -106.6832809448 -4.8231506348
+	sp "SideID" 1.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path0_0"
+	ConnectTo "path0_1"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -138.3189392090 54.2109832764 -0.8586883545
+	sp "Water" 0.0000000000
+	<
+
+> "path0_1"
+	ConnectTo "path0_2"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -123.5213851929 65.0468978882 0.0760803223
+	sp "Water" 0.0000000000
+	<
+
+> "path0_10"
+	ConnectTo "path0_11"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 53.6324539185 24.9029502869 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_11"
+	ConnectTo "path0_12"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 56.9804725647 32.1569938660 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_12"
+	ConnectTo "path0_13"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 57.9104843140 42.0150642395 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_13"
+	ConnectTo "path0_14"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 55.1204490662 54.4771575928 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_14"
+	ConnectTo "path0_15"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 54.0345344543 68.4341735840 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_15"
+	ConnectTo "path0_16"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 58.3125686646 77.1762390137 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_16"
+	ConnectTo "path0_17"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 66.3106231689 83.1282806396 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_17"
+	ConnectTo "path0_18"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 74.8666839600 85.5462951660 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_18"
+	ConnectTo "path0_19"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 83.0507431030 84.4302825928 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_19"
+	ConnectTo "path0_20"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 96.8148422241 78.2922515869 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_2"
+	ConnectTo "path0_3"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -110.5934371948 73.3847961426 -0.7418365479
+	sp "Water" 0.0000000000
+	<
+
+> "path0_20"
+	ConnectTo "path0_21"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 107.7889251709 69.7361831665 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_21"
+	ConnectTo "path0_22"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 121.1810150146 54.2980766296 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_22"
+	ConnectTo "path0_23"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 127.8770446777 50.9500503540 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_23"
+	ConnectTo "StartRight0"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 155.6436004639 53.2168426514 -0.0760803223
+	sp "Water" 0.0000000000
+	<
+
+> "path0_3"
+	ConnectTo "path0_4"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -90.4334411621 77.5477981567 0.0760787725
+	sp "Water" 0.0000000000
+	<
+
+> "path0_4"
+	ConnectTo "path0_5"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -80.3893890381 74.3857727051 0.0760787725
+	sp "Water" 0.0000000000
+	<
+
+> "path0_5"
+	ConnectTo "path0_6"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -54.9071807861 64.1557006836 0.0760787725
+	sp "Water" 0.0000000000
+	<
+
+> "path0_6"
+	ConnectTo "path0_7"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -17.6060600281 47.7811088562 0.0760787725
+	sp "Water" 0.0000000000
+	<
+
+> "path0_7"
+	ConnectTo "path0_8"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 28.5222702026 26.7629623413 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_8"
+	ConnectTo "path0_9"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 44.5183868408 20.9969158173 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path0_9"
+	ConnectTo "path0_10"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 49.5404052734 21.3689193726 0.0760726929
+	sp "Water" 0.0000000000
+	<
+
+> "path1_0"
+	ConnectTo "path1_1"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -140.1649017334 -50.6699218750 -1.6358489990
+	sp "Water" 0.0000000000
+	<
+
+> "path1_1"
+	ConnectTo "path1_2"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -129.1765136719 -43.4690551758 0.1168518066
+	sp "Water" 0.0000000000
+	<
+
+> "path1_10"
+	ConnectTo "path1_11"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 32.4073410034 -26.2621173859 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path1_11"
+	ConnectTo "path1_12"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 46.7018623352 -33.0195350647 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path1_12"
+	ConnectTo "path1_13"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 59.2777175903 -37.7198066711 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path1_13"
+	ConnectTo "path1_14"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 73.3123474121 -37.2000045776 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path1_14"
+	ConnectTo "path1_15"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 94.5792236328 -23.3983345032 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path1_15"
+	ConnectTo "StartRight1"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 159.2232208252 -5.6529693604 -1.9292602539
+	sp "Water" 0.0000000000
+	<
+
+> "path1_2"
+	ConnectTo "path1_3"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -106.4878158569 -24.2019805908 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path1_3"
+	ConnectTo "path1_4"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -98.6404266357 -19.8980274200 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path1_4"
+	ConnectTo "path1_5"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -87.3707962036 -22.1356010437 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path1_5"
+	ConnectTo "path1_6"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -72.9082794189 -30.5419349670 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path1_6"
+	ConnectTo "path1_7"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -53.5408706665 -23.2531280518 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path1_7"
+	ConnectTo "path1_8"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -42.9666900635 -10.8916625977 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path1_8"
+	ConnectTo "path1_9"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -18.5360450745 -6.2134552002 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path1_9"
+	ConnectTo "path1_10"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 6.9371099472 -9.3685998917 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_0"
+	ConnectTo "path2_1"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -113.1142196655 -90.8324737549 0.0000015274
+	sp "Water" 0.0000000000
+	<
+
+> "path2_1"
+	ConnectTo "path2_2"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -106.4590072632 -86.1952438354 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_10"
+	ConnectTo "path2_11"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -1.7562637329 -123.1753540039 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_11"
+	ConnectTo "path2_12"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 4.9268875122 -114.7100296021 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_12"
+	ConnectTo "path2_13"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 11.6904392242 -100.6786956787 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_13"
+	ConnectTo "path2_14"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 11.9132003784 -85.9757461548 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_14"
+	ConnectTo "path2_15"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 13.9181499481 -79.2925949097 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_15"
+	ConnectTo "path2_16"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 19.4874572754 -75.2827072144 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_16"
+	ConnectTo "path2_17"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 26.6161537170 -74.6143951416 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_17"
+	ConnectTo "path2_18"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 36.1953353882 -77.9559707642 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_18"
+	ConnectTo "path2_19"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 49.3388633728 -87.7579193115 0.0000076294
+	sp "Water" 0.0000000000
+	<
+
+> "path2_19"
+	ConnectTo "path2_20"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 59.5952682495 -102.8288574219 0.0000076294
+	sp "Water" 0.0000000000
+	<
+
+> "path2_2"
+	ConnectTo "path2_3"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -92.6471481323 -76.3932800293 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_20"
+	ConnectTo "path2_21"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 66.5011978149 -115.5268478394 0.0000076294
+	sp "Water" 0.0000000000
+	<
+
+> "path2_21"
+	ConnectTo "path2_22"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 72.5160369873 -125.7743530273 0.0000076294
+	sp "Water" 0.0000000000
+	<
+
+> "path2_22"
+	ConnectTo "path2_23"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 80.3130569458 -130.6753387451 0.0000076294
+	sp "Water" 0.0000000000
+	<
+
+> "path2_23"
+	ConnectTo "path2_24"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 87.8872985840 -129.1159362793 0.0000076294
+	sp "Water" 0.0000000000
+	<
+
+> "path2_24"
+	ConnectTo "path2_25"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 97.2437133789 -121.5416946411 0.0000076294
+	sp "Water" 0.0000000000
+	<
+
+> "path2_25"
+	ConnectTo "path2_26"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 105.9318084717 -112.6308212280 0.0000076294
+	sp "Water" 0.0000000000
+	<
+
+> "path2_26"
+	ConnectTo "path2_27"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 113.9515991211 -109.7347793579 0.0000076294
+	sp "Water" 0.0000000000
+	<
+
+> "path2_27"
+	ConnectTo "StartRight2"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" 158.0967864990 -110.9294357300 -0.1168365479
+	sp "Water" 0.0000000000
+	<
+
+> "path2_3"
+	ConnectTo "path2_4"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -80.3946914673 -75.0566482544 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_4"
+	ConnectTo "path2_5"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -66.5828552246 -80.6259460449 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_5"
+	ConnectTo "path2_6"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -46.7561645508 -94.2150268555 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_6"
+	ConnectTo "path2_7"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -32.9443206787 -104.6852951050 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_7"
+	ConnectTo "path2_8"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -25.8155975342 -115.3783493042 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_8"
+	ConnectTo "path2_9"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -21.1373977661 -123.6208953857 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "path2_9"
+	ConnectTo "path2_10"
+	sp "Direction" 0.0000000000 1.0000000000 0.0000000000
+	sp "Position" -11.3354415894 -127.4080200195 0.0000000000
+	sp "Water" 0.0000000000
+	<
+
+> "world"
+	sp "Direction" 1.0000000000 0.0000000000 0.0000000000
+	sp "Model" "worlds/world_01"
+	sp "Position" 0.0000000000 0.0000000000 0.1286125183
+
+	> "worlds.world_01"
+
+		> "clods"
+			sp "Material0" "SYSTEM/lighted"
+			<
+
+
+		> "dandelion_a"
+			sp "Material0" "SYSTEM/zadditive"
+			sp "Material1" "SYSTEM/blendedlighted"
+			<
+
+
+		> "grass"
+			sp "Material0" "SYSTEM/blendedlighted"
+			sp "Material1" "SYSTEM/blendedlighted"
+			sp "Material2" "SYSTEM/blendedlighted"
+			<
+
+
+		> "grass_pieces_a_01"
+			sp "Material0" "SYSTEM/blendedlighted"
+			<
+
+
+		> "grass_pieces_a_2"
+			sp "Material0" "SYSTEM/blendedlighted"
+			<
+
+
+		> "ground"
+			sp "Material0" "SYSTEM/lighted"
+			<
+
+
+		> "pebbles_a"
+			sp "Material0" "SYSTEM/blendedlighted"
+			<
+
+
+		> "schamrock_a"
+			sp "Material0" "SYSTEM/blendedlighted"
+			<
+
+
+		> "schamrock_b"
+			sp "Material0" "SYSTEM/blendedlightedambient"
+			<
+
+		<
+
+	<
+

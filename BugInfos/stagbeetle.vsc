@@ -1,0 +1,7 @@
+sp NameText BUGNAME_STAGBEETLE
+sp StatText BUGSTAT_STAGBEETLE
+sp DescText BUGDESC_STAGBEETLE
+sp ButtonImage GUI/main/maingui_bug_stagbeetle
+sp Priority 12
+sp Price 10
+sp ReloadTime 30

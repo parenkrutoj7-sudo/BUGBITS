@@ -1,0 +1,7 @@
+sp NameText BUGNAME_TOXICHERO
+sp StatText BUGSTAT_TOXICHERO
+sp DescText BUGDESC_TOXICHERO
+sp ButtonImage GUI/main/maingui_bug_toxichero
+sp Priority 61
+sp Price 15
+sp ReloadTime 90

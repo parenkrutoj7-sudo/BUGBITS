@@ -1,0 +1,7 @@
+sp NameText BUGNAME_WATERBEETLE
+sp StatText BUGSTAT_WATERBEETLE
+sp DescText BUGDESC_WATERBEETLE
+sp ButtonImage GUI/main/maingui_bug_waterbeetle
+sp Priority 50
+sp Price 3
+sp ReloadTime 7

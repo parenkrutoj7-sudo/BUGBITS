@@ -1,0 +1,7 @@
+sp NameText BUGNAME_WASPHERO
+sp StatText BUGSTAT_WASPHERO
+sp DescText BUGDESC_WASPHERO
+sp ButtonImage GUI/main/maingui_bug_wasphero
+sp Priority 62
+sp Price 15
+sp ReloadTime 90

@@ -1,0 +1,7 @@
+sp NameText BUGNAME_LITTLEBEETLE
+sp StatText BUGSTAT_LITTLEBEETLE
+sp DescText BUGDESC_LITTLEBEETLE
+sp ButtonImage GUI/main/maingui_bug_littlebeetle
+sp Priority 10
+sp Price 3
+sp ReloadTime 10

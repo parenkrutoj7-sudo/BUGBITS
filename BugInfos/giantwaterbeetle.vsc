@@ -1,0 +1,7 @@
+sp NameText BUGNAME_GIANTWATERBEETLE
+sp StatText BUGSTAT_GIANTWATERBEETLE
+sp DescText BUGDESC_GIANTWATERBEETLE
+sp ButtonImage GUI/main/maingui_bug_giantwaterbeetle
+sp Priority 51
+sp Price 9
+sp ReloadTime 30

@@ -1,0 +1,7 @@
+sp NameText BUGNAME_TOXICBUG
+sp StatText BUGSTAT_TOXICBUG
+sp DescText BUGDESC_TOXICBUG
+sp ButtonImage GUI/main/maingui_bug_toxicbug
+sp Priority 21
+sp Price 6
+sp ReloadTime 15

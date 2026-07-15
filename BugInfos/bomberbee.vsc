@@ -1,0 +1,7 @@
+sp NameText BUGNAME_BOMBERBEE
+sp StatText BUGSTAT_BOMBERBEE
+sp DescText BUGDESC_BOMBERBEE
+sp ButtonImage GUI/main/maingui_bug_bomberbee
+sp Priority 41
+sp Price 7
+sp ReloadTime 30

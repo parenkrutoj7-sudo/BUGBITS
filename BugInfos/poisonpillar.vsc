@@ -1,0 +1,7 @@
+sp NameText BUGNAME_POISONPILLAR
+sp StatText BUGSTAT_POISONPILLAR
+sp DescText BUGDESC_POISONPILLAR
+sp ButtonImage GUI/main/maingui_bug_poisonpillar
+sp Priority 31
+sp Price 12
+sp ReloadTime 45

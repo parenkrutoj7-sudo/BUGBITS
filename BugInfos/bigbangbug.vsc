@@ -1,0 +1,7 @@
+sp NameText BUGNAME_BIGBANGBUG
+sp StatText BUGSTAT_BIGBANGBUG
+sp DescText BUGDESC_BIGBANGBUG
+sp ButtonImage GUI/main/maingui_bug_bigbangbug
+sp Priority 32
+sp Price 8
+sp ReloadTime 60

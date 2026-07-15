@@ -1,0 +1,7 @@
+sp NameText BUGNAME_ANT
+sp StatText BUGSTAT_ANT
+sp DescText BUGDESC_ANT
+sp ButtonImage GUI/main/maingui_bug_ant
+sp Priority 0
+sp Price 0
+sp ReloadTime 15

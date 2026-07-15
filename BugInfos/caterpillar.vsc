@@ -1,0 +1,7 @@
+sp NameText BUGNAME_CATERPILLAR
+sp StatText BUGSTAT_CATERPILLAR
+sp DescText BUGDESC_CATERPILLAR
+sp ButtonImage GUI/main/maingui_bug_caterpillar
+sp Priority 30
+sp Price 7
+sp ReloadTime 30

@@ -1,0 +1,7 @@
+sp NameText BUGNAME_WASP
+sp StatText BUGSTAT_WASP
+sp DescText BUGDESC_WASP
+sp ButtonImage GUI/main/maingui_bug_wasp
+sp Priority 40
+sp Price 4
+sp ReloadTime 10

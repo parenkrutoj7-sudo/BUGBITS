@@ -1,0 +1,7 @@
+sp NameText BUGNAME_RHINOBEETLE
+sp StatText BUGSTAT_RHINOBEETLE
+sp DescText BUGDESC_RHINOBEETLE
+sp ButtonImage GUI/main/maingui_bug_rhinobeetle
+sp Priority 11
+sp Price 5
+sp ReloadTime 15

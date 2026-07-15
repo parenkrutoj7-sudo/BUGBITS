@@ -1,0 +1,7 @@
+sp NameText BUGNAME_MILITANT
+sp StatText BUGSTAT_MILITANT
+sp DescText BUGDESC_MILITANT
+sp ButtonImage GUI/main/maingui_bug_militant
+sp Priority 1
+sp Price 2
+sp ReloadTime 15

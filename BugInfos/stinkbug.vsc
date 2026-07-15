@@ -1,0 +1,7 @@
+sp NameText BUGNAME_STINKBUG
+sp StatText BUGSTAT_STINKBUG
+sp DescText BUGDESC_STINKBUG
+sp ButtonImage GUI/main/maingui_bug_stinkbug
+sp Priority 20
+sp Price 3
+sp ReloadTime 10

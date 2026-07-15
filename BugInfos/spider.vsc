@@ -1,0 +1,7 @@
+sp NameText BUGNAME_SPIDER
+sp StatText BUGSTAT_SPIDER
+sp DescText BUGDESC_SPIDER
+sp ButtonImage GUI/main/maingui_bug_spider
+sp Priority 33
+sp Price 12
+sp ReloadTime 45

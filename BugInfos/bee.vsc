@@ -1,0 +1,7 @@
+sp NameText BUGNAME_BEE
+sp StatText BUGSTAT_BEE
+sp DescText BUGDESC_BEE
+sp ButtonImage GUI/main/maingui_bug_bee
+sp Priority 2
+sp Price 3
+sp ReloadTime 15

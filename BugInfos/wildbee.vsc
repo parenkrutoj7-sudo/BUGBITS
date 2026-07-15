@@ -1,0 +1,7 @@
+sp NameText BUGNAME_WILDBEE
+sp StatText BUGSTAT_WILDBEE
+sp DescText BUGDESC_WILDBEE
+sp ButtonImage GUI/main/maingui_bug_wildbee
+sp Priority 3
+sp Price 4
+sp ReloadTime 15
